@@ -2,37 +2,37 @@ const testimonials = [
   {
     quote:
       "We've used CityLine on three productions at Steiner Studios. They show up early, handle everything from set bumps to real emergencies, and never slow us down. That's all I care about.",
-    name: 'James Moriarty',
+    name: 'James M.',
     title: 'Line Producer',
   },
   {
     quote:
       "On a 60-day shoot with 200 crew, you can't afford medical delays. Their team integrated with our ADs on day one. We didn't lose a single hour to medical downtime.",
-    name: 'Rachel Torres',
+    name: 'Rachel T.',
     title: 'Production Manager',
   },
   {
     quote:
       'We brought them onto the Hudson Yards project. Recordables dropped by half in the first quarter. Their medics actually understand construction sites — not just first aid.',
-    name: 'Michael Brennan',
+    name: 'Michael B.',
     title: 'Safety Director',
   },
   {
     quote:
       "From 50-person corporate dinners to 2,000-guest galas at The Plaza — CityLine scales without missing a beat. Our event insurance providers specifically request them.",
-    name: 'Sarah Kim',
+    name: 'Sarah K.',
     title: 'Events Director',
   },
   {
     quote:
       "Having CityLine on-site means our productions stay insured and our crews stay safe. They've been our go-to for every shoot since 2019.",
-    name: 'David Okafor',
+    name: 'David O.',
     title: 'VP Operations',
   },
   {
     quote:
       "Most medical providers don't understand OSHA 1926. CityLine does. Their documentation alone saved us from two potential citations last year.",
-    name: 'Nicole Russo',
+    name: 'Nicole R.',
     title: 'Site Safety Manager',
   },
 ]

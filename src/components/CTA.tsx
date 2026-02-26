@@ -13,10 +13,26 @@ const divisions = [
 
 export default function CTA() {
   const [submitted, setSubmitted] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    setSubmitted(true)
+    setSubmitting(true)
+    const form = e.currentTarget
+    const data = new FormData(form)
+
+    try {
+      await fetch('https://formsubmit.co/ajax/info@citylinemedical.com', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: data,
+      })
+      setSubmitted(true)
+    } catch {
+      setSubmitted(true)
+    } finally {
+      setSubmitting(false)
+    }
   }
 
   return (
@@ -103,6 +119,10 @@ export default function CTA() {
                 onSubmit={handleSubmit}
                 className="bg-slate-50 rounded-2xl p-8 sm:p-10 border border-slate-100 space-y-5"
               >
+                <input type="hidden" name="_subject" value="New CityLine Medical Inquiry" />
+                <input type="hidden" name="_template" value="table" />
+                <input type="text" name="_honey" className="hidden" />
+
                 <div className="grid sm:grid-cols-2 gap-5">
                   <div>
                     <label className="block text-sm font-semibold text-navy-900 mb-1.5">
@@ -110,6 +130,7 @@ export default function CTA() {
                     </label>
                     <input
                       type="text"
+                      name="name"
                       required
                       className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-navy-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-red-500/30 focus:border-red-500 transition-all text-sm"
                       placeholder="John Smith"
@@ -121,6 +142,7 @@ export default function CTA() {
                     </label>
                     <input
                       type="text"
+                      name="company"
                       required
                       className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-navy-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-red-500/30 focus:border-red-500 transition-all text-sm"
                       placeholder="Company Name"
@@ -135,6 +157,7 @@ export default function CTA() {
                     </label>
                     <input
                       type="email"
+                      name="email"
                       required
                       className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-navy-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-red-500/30 focus:border-red-500 transition-all text-sm"
                       placeholder="john@company.com"
@@ -146,6 +169,7 @@ export default function CTA() {
                     </label>
                     <input
                       type="tel"
+                      name="phone"
                       required
                       className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-navy-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-red-500/30 focus:border-red-500 transition-all text-sm"
                       placeholder="(555) 123-4567"
@@ -157,7 +181,7 @@ export default function CTA() {
                   <label className="block text-sm font-semibold text-navy-900 mb-1.5">
                     Division
                   </label>
-                  <select className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-navy-900 focus:outline-none focus:ring-2 focus:ring-red-500/30 focus:border-red-500 transition-all text-sm">
+                  <select name="division" className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-navy-900 focus:outline-none focus:ring-2 focus:ring-red-500/30 focus:border-red-500 transition-all text-sm">
                     <option value="">Select a division</option>
                     {divisions.map(d => (
                       <option key={d} value={d}>{d}</option>
@@ -170,6 +194,7 @@ export default function CTA() {
                     Message
                   </label>
                   <textarea
+                    name="message"
                     rows={4}
                     className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-navy-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-red-500/30 focus:border-red-500 transition-all text-sm resize-none"
                     placeholder="Tell us about your project and medical support needs..."
@@ -178,10 +203,11 @@ export default function CTA() {
 
                 <button
                   type="submit"
-                  className="w-full bg-red-600 hover:bg-red-500 text-white py-3.5 rounded-xl font-semibold text-base transition-all duration-200 hover:shadow-lg hover:shadow-red-600/20 flex items-center justify-center gap-2"
+                  disabled={submitting}
+                  className="w-full bg-red-600 hover:bg-red-500 disabled:bg-red-400 text-white py-3.5 rounded-xl font-semibold text-base transition-all duration-200 hover:shadow-lg hover:shadow-red-600/20 flex items-center justify-center gap-2"
                 >
                   <Send className="w-4 h-4" />
-                  Send Inquiry
+                  {submitting ? 'Sending...' : 'Send Inquiry'}
                 </button>
               </form>
             )}

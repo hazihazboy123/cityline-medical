@@ -29,12 +29,12 @@ export const industries: Industry[] = [
     heroSub:
       'Full-time on-site medics, OSHA compliance, and injury management for construction projects of any scale nationwide. Headquartered in New York.',
     description:
-      "Construction sites are high-risk environments where seconds matter. CityLine Medical is a certified Minority Business Enterprise (MBE) deploying experienced EMTs, paramedics, and on-site medics directly to your project. Our teams integrate with your existing safety staff, manage injury documentation, and keep your OSHA 300 log clean — so your crew stays working and your project stays on schedule.",
+      "Construction sites are high-risk environments where seconds matter. CityLine Medical is a certified Minority Business Enterprise (MBE) deploying experienced on-site medics directly to your project. Our teams integrate with your existing safety staff, manage injury documentation, and keep your OSHA 300 log clean — so your crew stays working and your project stays on schedule.",
     services: [
       {
         title: 'On-Site Medics',
         description:
-          'Dedicated EMTs and paramedics stationed on your site every shift. Immediate first response for any injury or medical event. From high-rise towers and infrastructure projects to bridges, tunnels, residential developments, commercial buildouts, and demolition sites — our teams deploy to any construction environment, on any timeline.',
+          'Dedicated on-site medics stationed on your site every shift. Immediate first response for any injury or medical event. From high-rise towers and infrastructure projects to bridges, tunnels, residential developments, commercial buildouts, and demolition sites — our teams deploy to any construction environment, on any timeline.',
       },
       {
         title: 'OSHA Compliance & 300 Log Management',
@@ -67,6 +67,11 @@ export const industries: Industry[] = [
           "Workers' comp administration, insurance documentation, and claims oversight. We work within Owner Controlled Insurance Programs (OCIP) and Contractor Controlled Insurance Programs (CCIP), providing the documentation, incident tracking, and claims management that wrap-up programs require — while helping to reduce overall program costs.",
       },
       {
+        title: 'Protect Your Bottom Line',
+        description:
+          'On-site medical support reduces unnecessary ER visits, minimizes lost workdays, and keeps your OSHA recordable rate low — directly impacting your insurance premiums, project bids, and overall project costs. Every dollar saved on avoidable claims is a dollar back on your bottom line.',
+      },
+      {
         title: 'NYC Regulatory Compliance',
         description:
           'In addition to federal OSHA standards, New York City construction projects must comply with Local Law 196 site safety training requirements and Department of Buildings safety mandates. Our medical support staff work alongside your Site Safety Managers and Coordinators to ensure full compliance with city, state, and federal regulations.',
@@ -76,14 +81,14 @@ export const industries: Industry[] = [
       {
         quote:
           'We brought them onto the Hudson Yards project. Recordables dropped by half in the first quarter. Their medics actually understand construction — not just first aid.',
-        name: 'Michael Brennan',
+        name: 'Michael B.',
         title: 'Safety Director',
 
       },
       {
         quote:
           "Most medical providers don't understand OSHA 1926. CityLine does. Their documentation alone saved us from two potential citations last year.",
-        name: 'Nicole Russo',
+        name: 'Nicole R.',
         title: 'Site Safety Manager',
 
       },
@@ -154,14 +159,14 @@ export const industries: Industry[] = [
       {
         quote:
           'CityLine set up an occupational health clinic inside our facility in under two weeks. DOT physicals, respirator testing, flu shots — all handled without sending workers off-site.',
-        name: 'Frank DeLuca',
+        name: 'Frank D.',
         title: 'Plant Manager',
 
       },
       {
         quote:
           'We run three shifts. Having consistent medical coverage across all of them changed how we handle incidents. Response time went from 20 minutes to under two.',
-        name: 'Angela Martinez',
+        name: 'Angela M.',
         title: 'EHS Director',
 
       },
@@ -232,21 +237,21 @@ export const industries: Industry[] = [
       {
         quote:
           "We've used CityLine on three productions at Steiner Studios. They show up early, handle everything from set bumps to real emergencies, and never slow us down. That's all I care about.",
-        name: 'James Moriarty',
+        name: 'James M.',
         title: 'Line Producer',
 
       },
       {
         quote:
           "On a 60-day shoot with 200 crew, you can't afford medical delays. Their team integrated with our ADs on day one. We didn't lose a single hour to medical downtime.",
-        name: 'Rachel Torres',
+        name: 'Rachel T.',
         title: 'Production Manager',
 
       },
       {
         quote:
           "Having CityLine on-site means our productions stay insured and our crews stay safe. They've been our go-to for every shoot since 2019.",
-        name: 'David Okafor',
+        name: 'David O.',
         title: 'VP Operations',
 
       },
@@ -312,14 +317,14 @@ export const industries: Industry[] = [
       {
         quote:
           "We host 300+ events a year. CityLine handles our medical coverage for everything from intimate wine dinners to New Year's Eve. Our guests never even know they're there.",
-        name: 'Thomas Andersen',
+        name: 'Thomas A.',
         title: 'Director of Operations',
 
       },
       {
         quote:
           "When a guest had a cardiac event during a private dinner, CityLine's medic had it handled before the ambulance arrived. That level of response is why we use them exclusively.",
-        name: 'Maria Santos',
+        name: 'Maria S.',
         title: 'General Manager',
 
       },
@@ -331,14 +336,14 @@ export const industries: Industry[] = [
     tagline: 'From corporate dinners to concerts — medical teams that scale.',
     heroHeadline: 'Every Event Covered.',
     heroSub:
-      'ALS and BLS standby teams for concerts, galas, fashion shows, corporate events, product launches, popup markets, and everything in between.',
+      'Medical standby teams for concerts, galas, fashion shows, corporate events, product launches, popup markets, and everything in between.',
     description:
-      "Whether it's a 50-person product launch in SoHo or a 10,000-seat concert at Forest Hills Stadium, your event needs a medical plan. CityLine Medical provides scalable medical teams, equipment, and event medical plans that satisfy venue requirements, insurance carriers, and permitting agencies — while staying completely invisible to your guests. For events over 5,000 attendees, we deploy a full medical operations center with ALS transport capability, roving BLS teams positioned based on crowd flow analysis, and a dedicated medical director coordinating all on-site response.",
+      "Whether it's a 50-person product launch in SoHo or a 10,000-seat concert at Forest Hills Stadium, your event needs a medical plan. CityLine Medical provides scalable medical teams, equipment, and event medical plans that satisfy venue requirements, insurance carriers, and permitting agencies — while staying completely invisible to your guests. For events over 5,000 attendees, we deploy a full medical operations center with roving BLS teams positioned based on crowd flow analysis and a medical director coordinating all response.",
     services: [
       {
-        title: 'ALS & BLS Standby',
+        title: 'Medical Standby',
         description:
-          'Paramedic and EMT teams scaled to your event size and risk profile. From a single medic to a full medical operations center.',
+          'Medical teams scaled to your event size and risk profile. From a single medic to a full medical operations center.',
       },
       {
         title: 'Event Permitting & Regulatory Compliance',
@@ -348,7 +353,7 @@ export const industries: Industry[] = [
       {
         title: 'Mass Gathering Medical Operations',
         description:
-          'For large-scale events over 1,000 attendees, we deploy mass gathering medicine protocols — including a dedicated medical operations center, ALS transport capability, roving BLS teams, and a medical director on-site coordinating all response.',
+          'For large-scale events over 1,000 attendees, we deploy mass gathering medicine protocols — including a dedicated medical operations center, roving BLS teams, and a medical director coordinating all response.',
       },
       {
         title: 'Marathon & Endurance Event Medical',
@@ -385,14 +390,14 @@ export const industries: Industry[] = [
       {
         quote:
           "From 50-person corporate dinners to 2,000-guest galas at The Plaza — CityLine scales without missing a beat. Our event insurance providers specifically request them.",
-        name: 'Sarah Kim',
+        name: 'Sarah K.',
         title: 'Events Director',
 
       },
       {
         quote:
           'We book CityLine for every fashion week activation. They get the pace, they stay out of the way, and when something happens they handle it quietly. Exactly what you want at a branded event.',
-        name: 'Priya Patel',
+        name: 'Priya P.',
         title: 'Senior Producer',
 
       },
@@ -463,14 +468,14 @@ export const industries: Industry[] = [
       {
         quote:
           "CityLine audited three of our sites and found gaps our internal team missed. They didn't just hand us a report — they helped us fix everything before our next OSHA visit.",
-        name: 'Robert Chung',
+        name: 'Robert C.',
         title: 'VP of Safety',
 
       },
       {
         quote:
           'We needed an EHS program built from scratch for a new facility. CityLine had us fully compliant and audit-ready in six weeks.',
-        name: 'Karen Williams',
+        name: 'Karen W.',
         title: 'Operations Director',
 
       },

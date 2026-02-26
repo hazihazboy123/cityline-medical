@@ -5,7 +5,7 @@ import { Menu, X, Phone, ChevronDown } from 'lucide-react'
 const navLinks = [
   { label: 'Blog', hash: '/blog', isRoute: true },
   { label: 'Services', hash: '#services' },
-  { label: 'Safety', hash: '#safety' },
+  { label: 'Safety', hash: '/safety', isRoute: true },
   { label: 'Contact', hash: '#contact' },
 ]
 
