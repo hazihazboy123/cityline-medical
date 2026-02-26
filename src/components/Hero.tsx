@@ -31,7 +31,7 @@ export default function Hero() {
               </span>
             </div>
 
-            <h1 className="font-display font-800 text-[clamp(2.5rem,6vw,4.5rem)] text-white leading-[1.05] tracking-[-0.025em] mb-6">
+            <h1 className="font-display font-800 text-[clamp(3rem,7vw,5.5rem)] text-white leading-[1.05] tracking-[-0.025em] mb-6">
               You run the operation.
               <br />
               <span className="text-red-500">We protect your people.</span>
