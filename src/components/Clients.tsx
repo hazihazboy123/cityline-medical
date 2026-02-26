@@ -4,6 +4,7 @@ const clients = [
   'Hilton',
   'American Red Cross',
   'Disney',
+  'Monadnock Construction',
   'Silvercup Studios',
   'Cipriani',
   'Broadway Stages',
