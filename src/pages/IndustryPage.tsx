@@ -182,7 +182,7 @@ export default function IndustryPage() {
                     {t.name}
                   </p>
                   <p className="text-xs text-slate-400">
-                    {t.title}, {t.company}
+                    {t.title}
                   </p>
                 </motion.div>
               ))}

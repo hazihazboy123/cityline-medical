@@ -3,9 +3,9 @@ import { Link, useLocation } from 'react-router-dom'
 import { Menu, X, Phone, ChevronDown } from 'lucide-react'
 
 const navLinks = [
+  { label: 'Blog', hash: '/blog', isRoute: true },
   { label: 'Services', hash: '#services' },
   { label: 'Safety', hash: '#safety' },
-  { label: 'Blog', hash: '/blog', isRoute: true },
   { label: 'Contact', hash: '#contact' },
 ]
 
