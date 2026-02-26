@@ -22,24 +22,19 @@ export default function TrustedBy() {
           Trusted By Industry Leaders
         </motion.p>
 
-        <div className="relative">
-          <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-white to-transparent z-10" />
-          <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-white to-transparent z-10" />
-
-          <div className="flex items-center animate-scroll">
-            {[...logos, ...logos].map((logo, i) => (
-              <div
-                key={`${logo.name}-${i}`}
-                className="flex-shrink-0 mx-10 sm:mx-14 flex items-center justify-center h-10"
-              >
-                <img
-                  src={logo.src}
-                  alt={`${logo.name} logo`}
-                  className="h-8 sm:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
-                />
-              </div>
-            ))}
-          </div>
+        <div className="flex items-center animate-scroll">
+          {[...logos, ...logos].map((logo, i) => (
+            <div
+              key={`${logo.name}-${i}`}
+              className="flex-shrink-0 mx-10 sm:mx-14 flex items-center justify-center h-10"
+            >
+              <img
+                src={logo.src}
+                alt={`${logo.name} logo`}
+                className="h-8 sm:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+              />
+            </div>
+          ))}
         </div>
       </div>
     </section>
