@@ -33,6 +33,8 @@ export default function Navbar() {
           <Link to="/" className="shrink-0 absolute left-0 top-3 z-10">
             <img src="/logo-light.png" alt="City Line Medical" className="h-28 w-auto" />
           </Link>
+          {/* Spacer to reserve logo width so other items don't overlap */}
+          <div className="shrink-0 w-48" />
 
           {/* Desktop Nav — center */}
           <div className="hidden lg:flex items-center gap-1 absolute left-1/2 -translate-x-1/2">
