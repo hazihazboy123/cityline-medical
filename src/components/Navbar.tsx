@@ -28,10 +28,10 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-navy-900/95 backdrop-blur-md border-b border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="relative flex items-center justify-between h-20">
+        <div className="relative flex items-center justify-between h-24">
           {/* Logo — hard left */}
           <Link to="/" className="shrink-0">
-            <img src="/logo-light.png" alt="City Line Medical" className="h-14 w-auto" />
+            <img src="/logo-light.png" alt="City Line Medical" className="h-20 w-auto" />
           </Link>
 
           {/* Desktop Nav — center */}

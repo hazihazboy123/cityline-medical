@@ -1,5 +1,6 @@
 import { ArrowRight, Shield, MapPin } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import { motion } from 'motion/react'
 
 const industryButtons = [
   { label: 'Construction', slug: 'construction' },
@@ -20,7 +21,12 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-20 items-center">
           {/* Left — headline + copy */}
           <div>
-            <div className="flex flex-wrap gap-3 mb-8">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              className="flex flex-wrap gap-3 mb-8"
+            >
               <span className="flex items-center gap-2 text-[11px] font-semibold text-navy-400 uppercase tracking-[0.12em] border border-white/10 px-3.5 py-1.5 rounded-full">
                 <MapPin className="w-3 h-3 text-red-500" />
                 Nationwide
@@ -29,20 +35,35 @@ export default function Hero() {
                 <Shield className="w-3 h-3 text-red-500" />
                 OSHA Certified
               </span>
-            </div>
+            </motion.div>
 
-            <h1 className="font-display font-800 text-[clamp(3.5rem,9vw,7rem)] text-white leading-[1.05] tracking-[-0.025em] mb-6">
+            <motion.h1
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.25 }}
+              className="font-display font-800 text-[clamp(2.5rem,5.5vw,4rem)] text-white leading-[1.05] tracking-[-0.025em] mb-6"
+            >
               You run the operation.
               <br />
               <span className="text-red-500">We protect your people.</span>
-            </h1>
+            </motion.h1>
 
-            <p className="text-lg text-navy-400 max-w-lg mb-10 leading-relaxed">
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.45 }}
+              className="text-lg text-navy-400 max-w-lg mb-10 leading-relaxed"
+            >
               On-site medics for construction, film sets, and events nationwide.
               Fast response. Full OSHA compliance. Zero production delays.
-            </p>
+            </motion.p>
 
-            <div className="flex flex-wrap gap-3">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.6 }}
+              className="flex flex-wrap gap-3"
+            >
               <a
                 href="#contact"
                 className="group inline-flex items-center gap-2.5 bg-red-600 hover:bg-red-500 text-white pl-6 pr-5 py-3 rounded-lg font-semibold text-[15px] transition-colors duration-200"
@@ -56,26 +77,37 @@ export default function Hero() {
               >
                 (516) 476-9665
               </a>
-            </div>
+            </motion.div>
           </div>
 
           {/* Right — industry buttons grid */}
-          <div className="flex flex-col h-full">
+          <motion.div
+            initial={{ opacity: 0, x: 40 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, delay: 0.35 }}
+            className="flex flex-col h-full"
+          >
             <p className="text-xs text-navy-400 uppercase tracking-[0.15em] font-semibold mb-5">
               Select Your Industry
             </p>
             <div className="grid grid-cols-2 gap-4 flex-1">
-              {industryButtons.map((ind) => (
-                <Link
+              {industryButtons.map((ind, i) => (
+                <motion.div
                   key={ind.slug}
-                  to={`/${ind.slug}`}
-                  className="group bg-navy-800 hover:bg-navy-700 border border-white/[0.08] hover:border-red-500/40 rounded-2xl px-8 py-10 text-white font-display font-semibold text-xl transition-all duration-200 hover:shadow-2xl hover:shadow-red-600/15 hover:-translate-y-0.5 flex items-center justify-center text-center"
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.4, delay: 0.5 + i * 0.07 }}
                 >
-                  {ind.label}
-                </Link>
+                  <Link
+                    to={`/${ind.slug}`}
+                    className="group bg-navy-800 hover:bg-navy-700 border border-white/[0.08] hover:border-red-500/40 rounded-2xl px-6 py-6 text-white font-display font-semibold text-base transition-all duration-200 hover:shadow-2xl hover:shadow-red-600/15 hover:-translate-y-0.5 flex items-center justify-center text-center h-full"
+                  >
+                    {ind.label}
+                  </Link>
+                </motion.div>
               ))}
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
 
