@@ -2,11 +2,15 @@ import { useParams, Navigate, Link } from 'react-router-dom'
 import { motion } from 'motion/react'
 import { ArrowRight, ArrowLeft, Award } from 'lucide-react'
 import { getIndustryBySlug, industries } from '../data/industries'
+import { getFAQsBySlug } from '../data/faqs'
+import FAQ from '../components/FAQ'
 import CTA from '../components/CTA'
 
 export default function IndustryPage() {
   const { slug } = useParams<{ slug: string }>()
   const industry = slug ? getIndustryBySlug(slug) : undefined
+
+  const faqItems = slug ? getFAQsBySlug(slug) : []
 
   if (!industry) return <Navigate to="/" replace />
 
@@ -208,6 +212,9 @@ export default function IndustryPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ */}
+      <FAQ items={faqItems} />
 
       {/* CTA */}
       <CTA />

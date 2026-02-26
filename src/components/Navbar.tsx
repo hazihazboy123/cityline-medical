@@ -5,6 +5,7 @@ import { Menu, X, Phone, ChevronDown } from 'lucide-react'
 const navLinks = [
   { label: 'Services', hash: '#services' },
   { label: 'Safety', hash: '#safety' },
+  { label: 'Blog', hash: '/blog', isRoute: true },
   { label: 'Contact', hash: '#contact' },
 ]
 
@@ -66,15 +67,25 @@ export default function Navbar() {
               )}
             </div>
 
-            {navLinks.map((link) => (
-              <a
-                key={link.label}
-                href={hashHref(link.hash)}
-                className="px-4 py-2 text-sm font-medium text-navy-200 hover:text-white transition-colors duration-200 rounded-lg hover:bg-white/5"
-              >
-                {link.label}
-              </a>
-            ))}
+            {navLinks.map((link) =>
+              'isRoute' in link && link.isRoute ? (
+                <Link
+                  key={link.label}
+                  to={link.hash}
+                  className="px-4 py-2 text-sm font-medium text-navy-200 hover:text-white transition-colors duration-200 rounded-lg hover:bg-white/5"
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <a
+                  key={link.label}
+                  href={hashHref(link.hash)}
+                  className="px-4 py-2 text-sm font-medium text-navy-200 hover:text-white transition-colors duration-200 rounded-lg hover:bg-white/5"
+                >
+                  {link.label}
+                </a>
+              )
+            )}
           </div>
 
           {/* CTA */}
@@ -126,16 +137,27 @@ export default function Navbar() {
               </Link>
             ))}
             <div className="my-2 border-t border-white/5" />
-            {navLinks.map((link) => (
-              <a
-                key={link.label}
-                href={hashHref(link.hash)}
-                onClick={() => setMobileOpen(false)}
-                className="block px-4 py-3 text-navy-200 hover:text-white hover:bg-white/5 rounded-lg transition-colors font-medium"
-              >
-                {link.label}
-              </a>
-            ))}
+            {navLinks.map((link) =>
+              'isRoute' in link && link.isRoute ? (
+                <Link
+                  key={link.label}
+                  to={link.hash}
+                  onClick={() => setMobileOpen(false)}
+                  className="block px-4 py-3 text-navy-200 hover:text-white hover:bg-white/5 rounded-lg transition-colors font-medium"
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <a
+                  key={link.label}
+                  href={hashHref(link.hash)}
+                  onClick={() => setMobileOpen(false)}
+                  className="block px-4 py-3 text-navy-200 hover:text-white hover:bg-white/5 rounded-lg transition-colors font-medium"
+                >
+                  {link.label}
+                </a>
+              )
+            )}
             <div className="pt-4 border-t border-white/10">
               <a
                 href={hashHref('#contact')}

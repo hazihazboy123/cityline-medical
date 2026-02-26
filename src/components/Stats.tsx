@@ -3,6 +3,7 @@ import { motion } from 'motion/react'
 const stats = [
   { value: '90%', label: 'Recordables Prevented', sublabel: 'On-Site Medical Protocols' },
   { value: '24/7', label: 'Nationwide Coverage', sublabel: 'Coast to Coast Service' },
+  { value: '80+', label: 'Active Job Sites', sublabel: 'Across All Industries' },
   { value: '<2min', label: 'Response Time', sublabel: 'Average On-Site' },
 ]
 

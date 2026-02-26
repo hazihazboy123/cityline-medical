@@ -21,6 +21,7 @@ const serviceLinks = [
 const companyLinks = [
   { label: 'About Us', href: '/#about' },
   { label: 'Safety', href: '/#safety' },
+  { label: 'Blog', href: '/blog', isRoute: true },
   { label: 'Contact', href: '/#contact' },
   { label: 'Join Our Team', href: '/#contact' },
   { label: 'Privacy Policy', href: '#' },
@@ -106,12 +107,21 @@ export default function Footer() {
             <ul className="space-y-2.5">
               {companyLinks.map((link) => (
                 <li key={link.label}>
-                  <a
-                    href={link.href}
-                    className="text-sm text-navy-400 hover:text-white transition-colors duration-200"
-                  >
-                    {link.label}
-                  </a>
+                  {'isRoute' in link && link.isRoute ? (
+                    <Link
+                      to={link.href}
+                      className="text-sm text-navy-400 hover:text-white transition-colors duration-200"
+                    >
+                      {link.label}
+                    </Link>
+                  ) : (
+                    <a
+                      href={link.href}
+                      className="text-sm text-navy-400 hover:text-white transition-colors duration-200"
+                    >
+                      {link.label}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>
