@@ -1,7 +1,7 @@
 const testimonials = [
   {
     quote:
-      "We've used City Line on three productions at Steiner Studios. They show up early, handle everything from set bumps to real emergencies, and never slow us down. That's all I care about.",
+      "We've used CityLine on three productions at Steiner Studios. They show up early, handle everything from set bumps to real emergencies, and never slow us down. That's all I care about.",
     name: 'James Moriarty',
     title: 'Line Producer',
     company: 'Steiner Studios',
@@ -22,21 +22,21 @@ const testimonials = [
   },
   {
     quote:
-      "From 50-person corporate dinners to 2,000-guest galas at The Plaza — City Line scales without missing a beat. Our event insurance providers specifically request them.",
+      "From 50-person corporate dinners to 2,000-guest galas at The Plaza — CityLine scales without missing a beat. Our event insurance providers specifically request them.",
     name: 'Sarah Kim',
     title: 'Events Director',
     company: 'Cipriani',
   },
   {
     quote:
-      "Having City Line on-site means our productions stay insured and our crews stay safe. They've been our go-to for every shoot since 2019.",
+      "Having CityLine on-site means our productions stay insured and our crews stay safe. They've been our go-to for every shoot since 2019.",
     name: 'David Okafor',
     title: 'VP Operations',
     company: 'Broadway Stages',
   },
   {
     quote:
-      "Most medical providers don't understand OSHA 1926. City Line does. Their documentation alone saved us from two potential citations last year.",
+      "Most medical providers don't understand OSHA 1926. CityLine does. Their documentation alone saved us from two potential citations last year.",
     name: 'Nicole Russo',
     title: 'Site Safety Manager',
     company: 'Lendlease',

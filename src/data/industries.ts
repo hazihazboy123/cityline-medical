@@ -30,7 +30,7 @@ export const industries: Industry[] = [
     heroSub:
       'Full-time on-site medics, OSHA compliance, and injury management for construction projects of any scale nationwide. Headquartered in New York.',
     description:
-      "Construction sites are high-risk environments where seconds matter. City Line Medical is a certified Minority Business Enterprise (MBE) deploying experienced EMTs, paramedics, and on-site medics directly to your project. Our teams integrate with your existing safety staff, manage injury documentation, and keep your OSHA 300 log clean — so your crew stays working and your project stays on schedule.",
+      "Construction sites are high-risk environments where seconds matter. CityLine Medical is a certified Minority Business Enterprise (MBE) deploying experienced EMTs, paramedics, and on-site medics directly to your project. Our teams integrate with your existing safety staff, manage injury documentation, and keep your OSHA 300 log clean — so your crew stays working and your project stays on schedule.",
     services: [
       {
         title: 'On-Site Medics',
@@ -83,7 +83,7 @@ export const industries: Industry[] = [
       },
       {
         quote:
-          "Most medical providers don't understand OSHA 1926. City Line does. Their documentation alone saved us from two potential citations last year.",
+          "Most medical providers don't understand OSHA 1926. CityLine does. Their documentation alone saved us from two potential citations last year.",
         name: 'Nicole Russo',
         title: 'Site Safety Manager',
         company: 'Lendlease',
@@ -98,7 +98,7 @@ export const industries: Industry[] = [
     heroSub:
       'Occupational health clinics, wellness programs, and emergency response for manufacturing, plant operations, and warehouse facilities.',
     description:
-      "Industrial environments demand medical teams that understand the unique hazards of plant operations — from chemical exposure to heavy machinery incidents. City Line Medical is a certified Minority Business Enterprise (MBE) providing on-site occupational health services tailored to your facility. We serve manufacturing floors, warehouse and distribution centers, food processing facilities, pharmaceutical plants, data centers, energy and utility operations, and heavy industrial facilities — each with protocols tailored to their unique hazards and compliance requirements.",
+      "Industrial environments demand medical teams that understand the unique hazards of plant operations — from chemical exposure to heavy machinery incidents. CityLine Medical is a certified Minority Business Enterprise (MBE) providing on-site occupational health services tailored to your facility. We serve manufacturing floors, warehouse and distribution centers, food processing facilities, pharmaceutical plants, data centers, energy and utility operations, and heavy industrial facilities — each with protocols tailored to their unique hazards and compliance requirements.",
     services: [
       {
         title: 'On-Site Medics',
@@ -154,7 +154,7 @@ export const industries: Industry[] = [
     testimonials: [
       {
         quote:
-          'City Line set up an occupational health clinic inside our facility in under two weeks. DOT physicals, respirator testing, flu shots — all handled without sending workers off-site.',
+          'CityLine set up an occupational health clinic inside our facility in under two weeks. DOT physicals, respirator testing, flu shots — all handled without sending workers off-site.',
         name: 'Frank DeLuca',
         title: 'Plant Manager',
         company: 'Pratt Industries',
@@ -176,7 +176,7 @@ export const industries: Industry[] = [
     heroSub:
       'Set medics, safety coordinators, and medical standby for film, television, commercial, and branded content productions nationwide. Headquartered in New York.',
     description:
-      "Productions run on tight schedules and tight budgets. A medical incident that sends someone to the ER can shut down your set for hours. City Line Medical provides experienced set medics who integrate with your production team, understand the pace of a working set, and meet SAG-AFTRA and IATSE safety requirements — without getting in the way. Whether you're shooting for a major streaming platform, a network series, an independent feature, or a branded content campaign, our set medics integrate with your production team on day one.",
+      "Productions run on tight schedules and tight budgets. A medical incident that sends someone to the ER can shut down your set for hours. CityLine Medical provides experienced set medics who integrate with your production team, understand the pace of a working set, and meet SAG-AFTRA and IATSE safety requirements — without getting in the way. Whether you're shooting for a major streaming platform, a network series, an independent feature, or a branded content campaign, our set medics integrate with your production team on day one.",
     services: [
       {
         title: 'Set Medics',
@@ -232,7 +232,7 @@ export const industries: Industry[] = [
     testimonials: [
       {
         quote:
-          "We've used City Line on three productions at Steiner Studios. They show up early, handle everything from set bumps to real emergencies, and never slow us down. That's all I care about.",
+          "We've used CityLine on three productions at Steiner Studios. They show up early, handle everything from set bumps to real emergencies, and never slow us down. That's all I care about.",
         name: 'James Moriarty',
         title: 'Line Producer',
         company: 'Steiner Studios',
@@ -246,7 +246,7 @@ export const industries: Industry[] = [
       },
       {
         quote:
-          "Having City Line on-site means our productions stay insured and our crews stay safe. They've been our go-to for every shoot since 2019.",
+          "Having CityLine on-site means our productions stay insured and our crews stay safe. They've been our go-to for every shoot since 2019.",
         name: 'David Okafor',
         title: 'VP Operations',
         company: 'Broadway Stages',
@@ -261,7 +261,7 @@ export const industries: Industry[] = [
     heroSub:
       'Medical staffing for hotels, restaurants, private events, and venues where discretion matters as much as capability.',
     description:
-      "In hospitality, a medical emergency handled poorly can damage your reputation, disrupt your guests, and expose your business to liability. City Line Medical provides trained medical professionals who blend seamlessly into your venue environment — handling everything from guest cardiac events and allergic reactions to staff injuries and intoxication incidents with professionalism and complete discretion. Whether you operate a luxury hotel, a high-volume restaurant group, a casino property, or a convention center, our teams are invisible until the moment they're needed.",
+      "In hospitality, a medical emergency handled poorly can damage your reputation, disrupt your guests, and expose your business to liability. CityLine Medical provides trained medical professionals who blend seamlessly into your venue environment — handling everything from guest cardiac events and allergic reactions to staff injuries and intoxication incidents with professionalism and complete discretion. Whether you operate a luxury hotel, a high-volume restaurant group, a casino property, or a convention center, our teams are invisible until the moment they're needed.",
     services: [
       {
         title: 'Venue Medical Staff',
@@ -312,14 +312,14 @@ export const industries: Industry[] = [
     testimonials: [
       {
         quote:
-          "We host 300+ events a year. City Line handles our medical coverage for everything from intimate wine dinners to New Year's Eve. Our guests never even know they're there.",
+          "We host 300+ events a year. CityLine handles our medical coverage for everything from intimate wine dinners to New Year's Eve. Our guests never even know they're there.",
         name: 'Thomas Andersen',
         title: 'Director of Operations',
         company: 'The Plaza Hotel',
       },
       {
         quote:
-          "When a guest had a cardiac event during a private dinner, City Line's medic had it handled before the ambulance arrived. That level of response is why we use them exclusively.",
+          "When a guest had a cardiac event during a private dinner, CityLine's medic had it handled before the ambulance arrived. That level of response is why we use them exclusively.",
         name: 'Maria Santos',
         title: 'General Manager',
         company: 'Tao Group Hospitality',
@@ -334,7 +334,7 @@ export const industries: Industry[] = [
     heroSub:
       'ALS and BLS standby teams for concerts, galas, fashion shows, corporate events, product launches, popup markets, and everything in between.',
     description:
-      "Whether it's a 50-person product launch in SoHo or a 10,000-seat concert at Forest Hills Stadium, your event needs a medical plan. City Line Medical provides scalable medical teams, equipment, and event medical plans that satisfy venue requirements, insurance carriers, and permitting agencies — while staying completely invisible to your guests. For events over 5,000 attendees, we deploy a full medical operations center with ALS transport capability, roving BLS teams positioned based on crowd flow analysis, and a dedicated medical director coordinating all on-site response.",
+      "Whether it's a 50-person product launch in SoHo or a 10,000-seat concert at Forest Hills Stadium, your event needs a medical plan. CityLine Medical provides scalable medical teams, equipment, and event medical plans that satisfy venue requirements, insurance carriers, and permitting agencies — while staying completely invisible to your guests. For events over 5,000 attendees, we deploy a full medical operations center with ALS transport capability, roving BLS teams positioned based on crowd flow analysis, and a dedicated medical director coordinating all on-site response.",
     services: [
       {
         title: 'ALS & BLS Standby',
@@ -385,14 +385,14 @@ export const industries: Industry[] = [
     testimonials: [
       {
         quote:
-          "From 50-person corporate dinners to 2,000-guest galas at The Plaza — City Line scales without missing a beat. Our event insurance providers specifically request them.",
+          "From 50-person corporate dinners to 2,000-guest galas at The Plaza — CityLine scales without missing a beat. Our event insurance providers specifically request them.",
         name: 'Sarah Kim',
         title: 'Events Director',
         company: 'Cipriani',
       },
       {
         quote:
-          'We book City Line for every fashion week activation. They get the pace, they stay out of the way, and when something happens they handle it quietly. Exactly what you want at a branded event.',
+          'We book CityLine for every fashion week activation. They get the pace, they stay out of the way, and when something happens they handle it quietly. Exactly what you want at a branded event.',
         name: 'Priya Patel',
         title: 'Senior Producer',
         company: 'IMG Live',
@@ -407,7 +407,7 @@ export const industries: Industry[] = [
     heroSub:
       'Site evaluations, emergency action plans, OSHA compliance audits, and EHS program development for organizations that take safety seriously.',
     description:
-      "Regulatory compliance isn't optional — but it doesn't have to be painful. City Line Medical's safety consulting team works with your EHS staff to evaluate your site, identify gaps, develop actionable plans, and ensure you're audit-ready at all times. We don't just tell you what's wrong — we fix it with you.",
+      "Regulatory compliance isn't optional — but it doesn't have to be painful. CityLine Medical's safety consulting team works with your EHS staff to evaluate your site, identify gaps, develop actionable plans, and ensure you're audit-ready at all times. We don't just tell you what's wrong — we fix it with you.",
     services: [
       {
         title: 'Site Evaluations',
@@ -463,14 +463,14 @@ export const industries: Industry[] = [
     testimonials: [
       {
         quote:
-          "City Line audited three of our sites and found gaps our internal team missed. They didn't just hand us a report — they helped us fix everything before our next OSHA visit.",
+          "CityLine audited three of our sites and found gaps our internal team missed. They didn't just hand us a report — they helped us fix everything before our next OSHA visit.",
         name: 'Robert Chung',
         title: 'VP of Safety',
         company: 'Skanska USA',
       },
       {
         quote:
-          'We needed an EHS program built from scratch for a new facility. City Line had us fully compliant and audit-ready in six weeks.',
+          'We needed an EHS program built from scratch for a new facility. CityLine had us fully compliant and audit-ready in six weeks.',
         name: 'Karen Williams',
         title: 'Operations Director',
         company: 'Brookfield Properties',

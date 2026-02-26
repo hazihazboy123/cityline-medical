@@ -69,7 +69,7 @@ export default function WhyUs() {
             viewport={{ once: true }}
             className="text-sm font-semibold text-red-400 uppercase tracking-widest mb-3"
           >
-            Why City Line Medical
+            Why CityLine Medical
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}

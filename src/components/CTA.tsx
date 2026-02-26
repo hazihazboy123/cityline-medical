@@ -95,7 +95,7 @@ export default function CTA() {
                 <CheckCircle className="w-16 h-16 text-emerald-500 mx-auto mb-4" />
                 <h3 className="font-display font-bold text-2xl text-navy-900 mb-2">Thank You!</h3>
                 <p className="text-slate-500">
-                  A City Line Medical representative will get back to you within 24 hours.
+                  A CityLine Medical representative will get back to you within 24 hours.
                 </p>
               </div>
             ) : (

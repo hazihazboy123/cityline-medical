@@ -30,11 +30,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-0 sm:px-0 lg:px-0">
         <div className="relative flex items-center justify-between h-24 px-4 sm:px-6 lg:px-8">
           {/* Logo — pinned to far left corner, oversized + shifted down */}
-          <Link to="/" className="shrink-0 absolute left-0 top-3 z-10">
-            <img src="/logo-light.png" alt="City Line Medical" className="h-28 w-auto" />
+          <Link to="/" className="shrink-0 absolute left-0 top-5 z-10">
+            <img src="/logo-light.png" alt="CityLine Medical" className="h-36 w-auto" />
           </Link>
           {/* Spacer to reserve logo width so other items don't overlap */}
-          <div className="shrink-0 w-48" />
+          <div className="shrink-0 w-56" />
 
           {/* Desktop Nav — center */}
           <div className="hidden lg:flex items-center gap-1 absolute left-1/2 -translate-x-1/2">

@@ -33,7 +33,7 @@ export default function Footer() {
         <div className="grid lg:grid-cols-5 gap-12 mb-14">
           {/* Brand column */}
           <div className="lg:col-span-2">
-            <img src="/logo-light.png" alt="City Line Medical" className="h-14 w-auto mb-5" />
+            <img src="/logo-light.png" alt="CityLine Medical" className="h-14 w-auto mb-5" />
             <p className="text-sm text-navy-400 leading-relaxed mb-6 max-w-sm">
               On-site medical solutions for construction, film, events, and
               industry nationwide. Headquartered in New York.
@@ -121,7 +121,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-white/5 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-navy-500">
-            &copy; {new Date().getFullYear()} City Line Medical. All Rights
+            &copy; {new Date().getFullYear()} CityLine Medical. All Rights
             Reserved.
           </p>
           <p className="text-xs text-navy-500">

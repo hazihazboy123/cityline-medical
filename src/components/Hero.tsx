@@ -1,15 +1,92 @@
-import { ArrowRight, Shield, MapPin } from 'lucide-react'
+import { ArrowRight, Shield, MapPin, HardHat, Factory, Film, UtensilsCrossed, Calendar, ShieldCheck } from 'lucide-react'
 import { Link } from 'react-router-dom'
-import { motion } from 'motion/react'
+import { motion, AnimatePresence } from 'motion/react'
+import { useState } from 'react'
 
 const industryButtons = [
-  { label: 'Construction', slug: 'construction' },
-  { label: 'Industrial', slug: 'industrial' },
-  { label: 'Media & Film', slug: 'media' },
-  { label: 'Hospitality', slug: 'hospitality' },
-  { label: 'Events', slug: 'events' },
-  { label: 'Safety', slug: 'safety' },
+  {
+    label: 'Construction',
+    slug: 'construction',
+    icon: HardHat,
+    color: 'bg-amber-500',
+    description: 'Full-time site medics, first aid stations, OSHA compliance support, and injury tracking for projects of any size.',
+  },
+  {
+    label: 'Industrial',
+    slug: 'industrial',
+    icon: Factory,
+    color: 'bg-blue-600',
+    description: 'Occupational health clinics, respirator fit testing, wellness programs, and emergency response for manufacturing and plant operations.',
+  },
+  {
+    label: 'Media & Film',
+    slug: 'media',
+    icon: Film,
+    color: 'bg-violet-600',
+    description: 'Set medics and safety coordinators for film, television, and commercial productions. Fast-paced, flexible coverage.',
+  },
+  {
+    label: 'Hospitality',
+    slug: 'hospitality',
+    icon: UtensilsCrossed,
+    color: 'bg-emerald-600',
+    description: "Medical professionals who blend seamlessly into your venue — invisible until the moment they're needed.",
+  },
+  {
+    label: 'Events',
+    slug: 'events',
+    icon: Calendar,
+    color: 'bg-rose-600',
+    description: 'Scalable medical teams that stay out of sight and out of the way, until seconds matter.',
+  },
+  {
+    label: 'Safety',
+    slug: 'safety',
+    icon: ShieldCheck,
+    color: 'bg-navy-600',
+    description: 'Site evaluations, emergency response planning, EHS program development, and regulatory compliance across all industries.',
+  },
 ]
+
+function IndustryButton({ ind, index }: { ind: typeof industryButtons[number]; index: number }) {
+  const [hovered, setHovered] = useState(false)
+  const Icon = ind.icon
+
+  return (
+    <motion.div
+      key={ind.slug}
+      initial={{ opacity: 0, scale: 0.9 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.4, delay: 0.5 + index * 0.07 }}
+      className="relative"
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
+      <Link
+        to={`/${ind.slug}`}
+        className="group bg-navy-800 hover:bg-navy-700 border border-white/[0.08] hover:border-red-500/40 rounded-2xl px-6 py-5 text-white transition-all duration-200 hover:shadow-2xl hover:shadow-red-600/15 hover:-translate-y-0.5 flex flex-col items-center justify-center text-center h-full gap-3"
+      >
+        <div className={`w-10 h-10 ${ind.color} rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300`}>
+          <Icon className="w-5 h-5 text-white" />
+        </div>
+        <span className="font-display font-semibold text-base">{ind.label}</span>
+      </Link>
+      <AnimatePresence>
+        {hovered && (
+          <motion.div
+            initial={{ opacity: 0, y: 4 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 4 }}
+            transition={{ duration: 0.15 }}
+            className="absolute z-50 left-1/2 -translate-x-1/2 top-full mt-2 w-64 bg-navy-900 border border-white/10 rounded-xl px-4 py-3 shadow-xl pointer-events-none"
+          >
+            <p className="text-xs text-navy-300 leading-relaxed">{ind.description}</p>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </motion.div>
+  )
+}
 
 export default function Hero() {
   return (
@@ -87,31 +164,21 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.35 }}
             className="flex flex-col h-full"
           >
-            <p className="text-xs text-navy-400 uppercase tracking-[0.15em] font-semibold mb-5">
+            <p className="text-sm font-semibold text-red-500 uppercase tracking-widest mb-2 text-center">
+              Industries We Serve
+            </p>
+            <p className="text-xs text-navy-400 uppercase tracking-[0.15em] font-semibold mb-5 text-center">
               Select Your Industry
             </p>
             <div className="grid grid-cols-2 gap-4 flex-1">
               {industryButtons.map((ind, i) => (
-                <motion.div
-                  key={ind.slug}
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.4, delay: 0.5 + i * 0.07 }}
-                >
-                  <Link
-                    to={`/${ind.slug}`}
-                    className="group bg-navy-800 hover:bg-navy-700 border border-white/[0.08] hover:border-red-500/40 rounded-2xl px-6 py-6 text-white font-display font-semibold text-base transition-all duration-200 hover:shadow-2xl hover:shadow-red-600/15 hover:-translate-y-0.5 flex items-center justify-center text-center h-full"
-                  >
-                    {ind.label}
-                  </Link>
-                </motion.div>
+                <IndustryButton key={ind.slug} ind={ind} index={i} />
               ))}
             </div>
           </motion.div>
         </div>
       </div>
 
-{}
     </section>
   )
 }
