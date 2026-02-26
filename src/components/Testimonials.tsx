@@ -4,42 +4,36 @@ const testimonials = [
       "We've used CityLine on three productions at Steiner Studios. They show up early, handle everything from set bumps to real emergencies, and never slow us down. That's all I care about.",
     name: 'James Moriarty',
     title: 'Line Producer',
-    company: 'Steiner Studios',
   },
   {
     quote:
       "On a 60-day shoot with 200 crew, you can't afford medical delays. Their team integrated with our ADs on day one. We didn't lose a single hour to medical downtime.",
     name: 'Rachel Torres',
     title: 'Production Manager',
-    company: 'Silvercup Studios',
   },
   {
     quote:
       'We brought them onto the Hudson Yards project. Recordables dropped by half in the first quarter. Their medics actually understand construction sites — not just first aid.',
     name: 'Michael Brennan',
     title: 'Safety Director',
-    company: 'Turner Construction',
   },
   {
     quote:
       "From 50-person corporate dinners to 2,000-guest galas at The Plaza — CityLine scales without missing a beat. Our event insurance providers specifically request them.",
     name: 'Sarah Kim',
     title: 'Events Director',
-    company: 'Cipriani',
   },
   {
     quote:
       "Having CityLine on-site means our productions stay insured and our crews stay safe. They've been our go-to for every shoot since 2019.",
     name: 'David Okafor',
     title: 'VP Operations',
-    company: 'Broadway Stages',
   },
   {
     quote:
       "Most medical providers don't understand OSHA 1926. CityLine does. Their documentation alone saved us from two potential citations last year.",
     name: 'Nicole Russo',
     title: 'Site Safety Manager',
-    company: 'Lendlease',
   },
 ]
 
@@ -62,7 +56,7 @@ export default function Testimonials() {
               </p>
               <p className="font-semibold text-navy-900 text-sm">{t.name}</p>
               <p className="text-xs text-slate-400">
-                {t.title}, {t.company}
+                {t.title}
               </p>
             </div>
           ))}

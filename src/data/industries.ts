@@ -2,7 +2,6 @@ export interface IndustryTestimonial {
   quote: string
   name: string
   title: string
-  company: string
 }
 
 export interface IndustryService {
@@ -79,14 +78,14 @@ export const industries: Industry[] = [
           'We brought them onto the Hudson Yards project. Recordables dropped by half in the first quarter. Their medics actually understand construction — not just first aid.',
         name: 'Michael Brennan',
         title: 'Safety Director',
-        company: 'Turner Construction',
+
       },
       {
         quote:
           "Most medical providers don't understand OSHA 1926. CityLine does. Their documentation alone saved us from two potential citations last year.",
         name: 'Nicole Russo',
         title: 'Site Safety Manager',
-        company: 'Lendlease',
+
       },
     ],
   },
@@ -157,14 +156,14 @@ export const industries: Industry[] = [
           'CityLine set up an occupational health clinic inside our facility in under two weeks. DOT physicals, respirator testing, flu shots — all handled without sending workers off-site.',
         name: 'Frank DeLuca',
         title: 'Plant Manager',
-        company: 'Pratt Industries',
+
       },
       {
         quote:
           'We run three shifts. Having consistent medical coverage across all of them changed how we handle incidents. Response time went from 20 minutes to under two.',
         name: 'Angela Martinez',
         title: 'EHS Director',
-        company: 'Amazon Fulfillment',
+
       },
     ],
   },
@@ -235,21 +234,21 @@ export const industries: Industry[] = [
           "We've used CityLine on three productions at Steiner Studios. They show up early, handle everything from set bumps to real emergencies, and never slow us down. That's all I care about.",
         name: 'James Moriarty',
         title: 'Line Producer',
-        company: 'Steiner Studios',
+
       },
       {
         quote:
           "On a 60-day shoot with 200 crew, you can't afford medical delays. Their team integrated with our ADs on day one. We didn't lose a single hour to medical downtime.",
         name: 'Rachel Torres',
         title: 'Production Manager',
-        company: 'Silvercup Studios',
+
       },
       {
         quote:
           "Having CityLine on-site means our productions stay insured and our crews stay safe. They've been our go-to for every shoot since 2019.",
         name: 'David Okafor',
         title: 'VP Operations',
-        company: 'Broadway Stages',
+
       },
     ],
   },
@@ -315,14 +314,14 @@ export const industries: Industry[] = [
           "We host 300+ events a year. CityLine handles our medical coverage for everything from intimate wine dinners to New Year's Eve. Our guests never even know they're there.",
         name: 'Thomas Andersen',
         title: 'Director of Operations',
-        company: 'The Plaza Hotel',
+
       },
       {
         quote:
           "When a guest had a cardiac event during a private dinner, CityLine's medic had it handled before the ambulance arrived. That level of response is why we use them exclusively.",
         name: 'Maria Santos',
         title: 'General Manager',
-        company: 'Tao Group Hospitality',
+
       },
     ],
   },
@@ -388,14 +387,14 @@ export const industries: Industry[] = [
           "From 50-person corporate dinners to 2,000-guest galas at The Plaza — CityLine scales without missing a beat. Our event insurance providers specifically request them.",
         name: 'Sarah Kim',
         title: 'Events Director',
-        company: 'Cipriani',
+
       },
       {
         quote:
           'We book CityLine for every fashion week activation. They get the pace, they stay out of the way, and when something happens they handle it quietly. Exactly what you want at a branded event.',
         name: 'Priya Patel',
         title: 'Senior Producer',
-        company: 'IMG Live',
+
       },
     ],
   },
@@ -466,14 +465,14 @@ export const industries: Industry[] = [
           "CityLine audited three of our sites and found gaps our internal team missed. They didn't just hand us a report — they helped us fix everything before our next OSHA visit.",
         name: 'Robert Chung',
         title: 'VP of Safety',
-        company: 'Skanska USA',
+
       },
       {
         quote:
           'We needed an EHS program built from scratch for a new facility. CityLine had us fully compliant and audit-ready in six weeks.',
         name: 'Karen Williams',
         title: 'Operations Director',
-        company: 'Brookfield Properties',
+
       },
     ],
   },
