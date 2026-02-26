@@ -19,8 +19,8 @@ export default function Home() {
       <Services />
       <WhyUs />
       <Stats />
-      <FAQ items={faqItems} />
       <CTA />
+      <FAQ items={faqItems} />
     </>
   )
 }
