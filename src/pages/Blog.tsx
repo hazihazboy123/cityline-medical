@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'motion/react'
 import { ArrowRight, ArrowLeft, Clock } from 'lucide-react'
-import { blogPosts, blogCategories, getBlogsByCategory } from '../data/blogs'
+import { blogCategories, getBlogsByCategory } from '../data/blogs'
 import CTA from '../components/CTA'
 
 const categoryColors: Record<string, string> = {

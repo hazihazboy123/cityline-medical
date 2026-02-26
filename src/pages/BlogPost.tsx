@@ -1,7 +1,7 @@
 import { useParams, Navigate, Link } from 'react-router-dom'
 import { motion } from 'motion/react'
 import { ArrowLeft, ArrowRight, Clock, Calendar } from 'lucide-react'
-import { getBlogBySlug, blogPosts } from '../data/blogs'
+import { getBlogBySlug } from '../data/blogs'
 import CTA from '../components/CTA'
 
 const categoryColors: Record<string, string> = {
