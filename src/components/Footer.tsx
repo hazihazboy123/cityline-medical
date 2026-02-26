@@ -36,7 +36,7 @@ export default function Footer() {
             <img src="/logo-light.png" alt="City Line Medical" className="h-14 w-auto mb-5" />
             <p className="text-sm text-navy-400 leading-relaxed mb-6 max-w-sm">
               On-site medical solutions for construction, film, events, and
-              industry across the NYC tri-state area.
+              industry nationwide. Headquartered in New York.
             </p>
             <div className="space-y-3">
               <a
@@ -124,7 +124,9 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} City Line Medical. All Rights
             Reserved.
           </p>
-          <p className="text-xs text-navy-600">Veteran Owned Small Business</p>
+          <p className="text-xs text-navy-500">
+            Headquartered in New York, serving projects nationwide.
+          </p>
         </div>
       </div>
     </footer>

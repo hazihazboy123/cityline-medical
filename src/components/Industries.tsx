@@ -40,7 +40,7 @@ const industries = [
     slug: 'hospitality',
     name: 'Hospitality',
     description:
-      'Medical staffing for hotels, resorts, and large hospitality venues. Discreet, professional care for staff and guests.',
+      'Medical professionals who blend seamlessly into your venue — invisible until the moment they\'re needed.',
     color: 'bg-emerald-600',
   },
   {
@@ -48,7 +48,7 @@ const industries = [
     slug: 'events',
     name: 'Events',
     description:
-      'On-demand medical teams for concerts, festivals, sporting events, and corporate gatherings of any scale.',
+      'Scalable medical teams that stay out of sight and out of the way, until seconds matter.',
     color: 'bg-rose-600',
   },
   {

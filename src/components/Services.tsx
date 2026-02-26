@@ -6,7 +6,7 @@ import {
   Building2,
   BarChart3,
   HeartPulse,
-  PhoneCall,
+  RefreshCw,
   ClipboardCheck,
 } from 'lucide-react'
 
@@ -48,10 +48,10 @@ const services = [
       'Site evaluations, emergency response planning, OSHA compliance support, and safety team integration.',
   },
   {
-    icon: PhoneCall,
-    title: 'Nurse Triage / Telehealth',
+    icon: RefreshCw,
+    title: 'Return-to-Work Coordination',
     description:
-      'Remote access to occupational health and emergency medicine physicians for immediate clinical guidance.',
+      'Structured return-to-work and modified duty programs that keep injured workers productive, reduce disability claims, and protect your Experience Modification Rate.',
   },
   {
     icon: ClipboardCheck,

@@ -1,6 +1,6 @@
 import { useParams, Navigate, Link } from 'react-router-dom'
 import { motion } from 'motion/react'
-import { ArrowRight, ArrowLeft } from 'lucide-react'
+import { ArrowRight, ArrowLeft, Award } from 'lucide-react'
 import { getIndustryBySlug, industries } from '../data/industries'
 import CTA from '../components/CTA'
 
@@ -59,6 +59,20 @@ export default function IndustryPage() {
             >
               {industry.heroSub}
             </motion.p>
+
+            {(slug === 'construction' || slug === 'industrial') && (
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: 0.2 }}
+                className="inline-flex items-center gap-2 bg-white/[0.08] border border-white/[0.12] rounded-lg px-4 py-2 mb-6"
+              >
+                <Award className="w-4 h-4 text-red-400" />
+                <span className="text-sm font-semibold text-white">
+                  Certified Minority Business Enterprise (MBE)
+                </span>
+              </motion.div>
+            )}
 
             <motion.div
               initial={{ opacity: 0, y: 10 }}

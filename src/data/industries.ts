@@ -28,19 +28,24 @@ export const industries: Industry[] = [
     tagline: 'From high-rises to infrastructure — medics who know your site.',
     heroHeadline: 'Built for the Job Site.',
     heroSub:
-      'Full-time on-site medics, OSHA compliance, and injury management for construction projects of any scale across the tri-state.',
+      'Full-time on-site medics, OSHA compliance, and injury management for construction projects of any scale nationwide. Headquartered in New York.',
     description:
-      "Construction sites are high-risk environments where seconds matter. City Line Medical deploys experienced EMTs, paramedics, and health & safety medical technicians directly to your project. Our teams integrate with your existing safety staff, manage injury documentation, and keep your OSHA 300 log clean — so your crew stays working and your project stays on schedule.",
+      "Construction sites are high-risk environments where seconds matter. City Line Medical is a certified Minority Business Enterprise (MBE) deploying experienced EMTs, paramedics, and on-site medics directly to your project. Our teams integrate with your existing safety staff, manage injury documentation, and keep your OSHA 300 log clean — so your crew stays working and your project stays on schedule.",
     services: [
       {
         title: 'On-Site Medics',
         description:
-          'Dedicated EMTs and paramedics stationed on your site every shift. Immediate first response for any injury or medical event.',
+          'Dedicated EMTs and paramedics stationed on your site every shift. Immediate first response for any injury or medical event. From high-rise towers and infrastructure projects to bridges, tunnels, residential developments, commercial buildouts, and demolition sites — our teams deploy to any construction environment, on any timeline.',
       },
       {
-        title: 'OSHA Compliance',
+        title: 'OSHA Compliance & 300 Log Management',
         description:
-          'Full compliance with OSHA 1926.23, 1926.50, and Army Corps EM385 1-1. Documentation and reporting that keeps your site audit-ready.',
+          'Full compliance with OSHA 1926.23, 1926.50, and Army Corps EM385 1-1. Our medics evaluate whether incidents meet OSHA recordability criteria under 29 CFR 1904 — proper first-report documentation and on-site treatment capability means the difference between a recordable incident and a first-aid case, keeping your OSHA 300 log clean and your Total Recordable Incident Rate (TRIR) low.',
+      },
+      {
+        title: 'Protect Your EMR',
+        description:
+          'Every OSHA recordable and workers\' compensation claim impacts your Experience Modification Rate (EMR) — the metric that determines your insurance premiums and your ability to bid on projects. Our on-site medical protocols keep treatment on-site, prevent unnecessary ER visits, and ensure proper first-report documentation so incidents that qualify as first-aid cases aren\'t incorrectly logged as recordables. The result: fewer claims, lower premiums, and a competitive EMR that wins work.',
       },
       {
         title: 'Injury Tracking (IRAMP)',
@@ -58,9 +63,14 @@ export const industries: Industry[] = [
           'DOT physicals, respirator fit testing, audiometric testing, and vaccinations — all performed on your job site.',
       },
       {
-        title: 'Claims Management',
+        title: 'Claims Management & OCIP/CCIP Support',
         description:
-          "Workers' comp administration, insurance documentation, and claims oversight. Reduce disputes and control costs.",
+          "Workers' comp administration, insurance documentation, and claims oversight. We work within Owner Controlled Insurance Programs (OCIP) and Contractor Controlled Insurance Programs (CCIP), providing the documentation, incident tracking, and claims management that wrap-up programs require — while helping to reduce overall program costs.",
+      },
+      {
+        title: 'NYC Regulatory Compliance',
+        description:
+          'In addition to federal OSHA standards, New York City construction projects must comply with Local Law 196 site safety training requirements and Department of Buildings safety mandates. Our medical support staff work alongside your Site Safety Managers and Coordinators to ensure full compliance with city, state, and federal regulations.',
       },
     ],
     testimonials: [
@@ -88,7 +98,7 @@ export const industries: Industry[] = [
     heroSub:
       'Occupational health clinics, wellness programs, and emergency response for manufacturing, plant operations, and warehouse facilities.',
     description:
-      "Industrial environments demand medical teams that understand the unique hazards of plant operations — from chemical exposure to heavy machinery incidents. City Line Medical provides on-site occupational health services tailored to your facility, including respirator fit testing, wellness screenings, and round-the-clock emergency medical coverage.",
+      "Industrial environments demand medical teams that understand the unique hazards of plant operations — from chemical exposure to heavy machinery incidents. City Line Medical is a certified Minority Business Enterprise (MBE) providing on-site occupational health services tailored to your facility. We serve manufacturing floors, warehouse and distribution centers, food processing facilities, pharmaceutical plants, data centers, energy and utility operations, and heavy industrial facilities — each with protocols tailored to their unique hazards and compliance requirements.",
     services: [
       {
         title: 'On-Site Medics',
@@ -98,12 +108,32 @@ export const industries: Industry[] = [
       {
         title: 'Occupational Health Clinics',
         description:
-          'Full-service clinics with DOT physicals, respirator fit testing, audiometric testing, pulmonary function tests, and vaccinations.',
+          'Full-service clinics with DOT physicals, respirator fit testing, audiometric testing, pulmonary function tests, and vaccinations. Full compliance with OSHA 1910 General Industry standards, including 1910.151 (Medical Services and First Aid), as well as industry-specific regulatory requirements for your facility.',
       },
       {
         title: 'Drug & Alcohol Testing',
         description:
           'Pre-employment, random, reasonable suspicion, and post-incident screenings. Certified collectors and MRO coordination.',
+      },
+      {
+        title: 'Ergonomics & Injury Prevention',
+        description:
+          'Musculoskeletal disorders are the leading cause of lost workdays in industrial settings. Our teams implement stretch-and-flex programs, ergonomic assessments, and early intervention protocols. Depending on your facility\'s needs, we can coordinate periodic on-site chiropractic or physical therapy services to keep your workforce healthy and productive.',
+      },
+      {
+        title: 'Heat Illness Prevention',
+        description:
+          'Heat illness prevention and monitoring for both outdoor and indoor industrial environments — including manufacturing floors, foundries, and processing facilities where ambient temperatures create risk.',
+      },
+      {
+        title: 'Fatigue Risk Management',
+        description:
+          'For 24/7 operations and multi-shift facilities, fatigue is a leading contributor to workplace incidents. Our teams monitor for fatigue-related risk indicators and implement countermeasures to keep your workforce alert and safe across all shifts.',
+      },
+      {
+        title: 'Return-to-Work Coordination',
+        description:
+          'Structured modified duty and transitional return-to-work programs that keep injured employees productive, reduce disability claim duration, and protect your Experience Modification Rate.',
       },
       {
         title: 'Wellness Programs',
@@ -144,9 +174,9 @@ export const industries: Industry[] = [
     tagline: "Set medics for productions that can't afford downtime.",
     heroHeadline: 'Your Set Stays Moving.',
     heroSub:
-      'Set medics, safety coordinators, and medical standby for film, television, commercial, and branded content productions across NYC and the tri-state.',
+      'Set medics, safety coordinators, and medical standby for film, television, commercial, and branded content productions nationwide. Headquartered in New York.',
     description:
-      "Productions run on tight schedules and tight budgets. A medical incident that sends someone to the ER can shut down your set for hours. City Line Medical provides experienced set medics who integrate with your production team, understand the pace of a working set, and meet SAG-AFTRA and IATSE safety requirements — without getting in the way.",
+      "Productions run on tight schedules and tight budgets. A medical incident that sends someone to the ER can shut down your set for hours. City Line Medical provides experienced set medics who integrate with your production team, understand the pace of a working set, and meet SAG-AFTRA and IATSE safety requirements — without getting in the way. Whether you're shooting for a major streaming platform, a network series, an independent feature, or a branded content campaign, our set medics integrate with your production team on day one.",
     services: [
       {
         title: 'Set Medics',
@@ -154,9 +184,34 @@ export const industries: Industry[] = [
           'Licensed EMTs and paramedics experienced on film and TV sets. They work with your ADs and know when to step in and when to stay back.',
       },
       {
+        title: 'Union & Production Compliance',
+        description:
+          'Full compliance with SAG-AFTRA safety requirements, IATSE collective bargaining agreement provisions, and industry Safety Bulletin protocols. Our set medics meet the specific first aid and medical standby requirements mandated by union contracts, production insurance carriers, and stunt coordination guidelines.',
+      },
+      {
+        title: 'NYC Film Permit Compliance',
+        description:
+          "The NYC Mayor's Office of Media and Entertainment requires medical coverage for certain production types as part of the film permitting process. We handle the medical component of your permit application and ensure your production meets all city requirements before cameras roll.",
+      },
+      {
         title: 'Safety Coordinators',
         description:
           'Stunt medical standby, location risk assessments, and safety plans required by production insurance and union guidelines.',
+      },
+      {
+        title: 'Water Safety & Marine Medical',
+        description:
+          'For waterfront and water-involved shoots across NYC and the tri-state, we provide water safety personnel and medics with rescue certifications to cover marine, pool, and open-water filming environments.',
+      },
+      {
+        title: 'Branded Content & Commercial Production',
+        description:
+          "Agency shoots, direct-to-brand content, and commercial productions run on compressed timelines with smaller crews — but still need medical coverage. We deploy fast, flex to your schedule, and provide the same level of care whether it's a one-day shoot or a multi-week campaign.",
+      },
+      {
+        title: 'Production Health & Safety Protocols',
+        description:
+          'From COVID-19 compliance to ongoing infectious disease preparedness, our teams implement health monitoring, testing coordination, and safety protocols that keep your cast and crew healthy and your production on schedule.',
       },
       {
         title: 'First Aid Stations',
@@ -167,11 +222,6 @@ export const industries: Industry[] = [
         title: 'Hot & Cold Weather Protocols',
         description:
           'Heat illness prevention, cold exposure monitoring, and weather-related safety plans for exterior shoots.',
-      },
-      {
-        title: 'Drug & Alcohol Testing',
-        description:
-          'Pre-production and on-set testing services. Confidential, fast, and compliant with all production requirements.',
       },
       {
         title: 'Incident Documentation',
@@ -211,7 +261,7 @@ export const industries: Industry[] = [
     heroSub:
       'Medical staffing for hotels, restaurants, private events, and venues where discretion matters as much as capability.',
     description:
-      "In hospitality, the last thing you want is a medical emergency disrupting your guests' experience. City Line Medical provides trained medical professionals who blend seamlessly into your venue environment — handling everything from guest medical events to staff injuries with professionalism and discretion.",
+      "In hospitality, a medical emergency handled poorly can damage your reputation, disrupt your guests, and expose your business to liability. City Line Medical provides trained medical professionals who blend seamlessly into your venue environment — handling everything from guest cardiac events and allergic reactions to staff injuries and intoxication incidents with professionalism and complete discretion. Whether you operate a luxury hotel, a high-volume restaurant group, a casino property, or a convention center, our teams are invisible until the moment they're needed.",
     services: [
       {
         title: 'Venue Medical Staff',
@@ -219,24 +269,39 @@ export const industries: Industry[] = [
           'Licensed medics embedded in your venue operation. Professional appearance, discreet positioning, immediate availability.',
       },
       {
+        title: 'AED Programs & Cardiac Preparedness',
+        description:
+          'We supply, place, maintain, and train your staff on Automated External Defibrillators (AEDs) to meet local and state requirements. Our medics are positioned and equipped for immediate cardiac emergency response in hotels, venues, and large hospitality properties.',
+      },
+      {
+        title: 'Anaphylaxis & Allergy Response',
+        description:
+          'Allergic reactions are one of the most common medical emergencies in restaurants and hotels. Our medics are trained in epinephrine administration, anaphylaxis management, and rapid stabilization — providing immediate response before EMS arrival and protecting your guests and your liability exposure.',
+      },
+      {
+        title: 'Convention & Large Venue Medical',
+        description:
+          'For convention centers, conference facilities, and large-format hospitality venues, we provide scalable medical staffing — from a single medic for a multi-day conference to a full medical operations team for major trade shows and expos.',
+      },
+      {
+        title: 'Casino & Gaming Properties',
+        description:
+          'Medical staffing for casino floors, gaming venues, and entertainment complexes. Our teams handle guest medical events, staff injuries, and the unique health and safety challenges of 24/7 gaming environments — including addiction-related incidents and patron welfare.',
+      },
+      {
+        title: 'Intoxication & Liquor Liability Management',
+        description:
+          'Our medics are trained in managing intoxicated guests, documenting incidents for liquor liability defense, and coordinating safe transport when necessary. Professional, discreet handling that protects your venue and your guests.',
+      },
+      {
         title: 'Private Event Coverage',
         description:
           'Medical standby for gallery openings, private dinners, charity galas, rooftop parties, and intimate gatherings.',
       },
       {
-        title: 'Guest Medical Response',
-        description:
-          'Trained in handling medical events with discretion. Allergic reactions, cardiac events, intoxication — handled without disrupting your space.',
-      },
-      {
         title: 'Staff Injury Management',
         description:
           'On-site treatment for kitchen burns, slips, falls, and repetitive strain injuries. Keep your team working, reduce ER visits.',
-      },
-      {
-        title: 'Drug & Alcohol Testing',
-        description:
-          'Pre-employment and random screening for hospitality staff. On-site administration, confidential results.',
       },
       {
         title: 'Claims Oversight',
@@ -269,7 +334,7 @@ export const industries: Industry[] = [
     heroSub:
       'ALS and BLS standby teams for concerts, galas, fashion shows, corporate events, product launches, popup markets, and everything in between.',
     description:
-      "Whether it's a 50-person product launch in SoHo or a 10,000-seat concert at Forest Hills Stadium, your event needs a medical plan. City Line Medical provides scalable medical teams, equipment, and event medical plans that satisfy venue requirements, insurance carriers, and permitting agencies — while staying completely invisible to your guests.",
+      "Whether it's a 50-person product launch in SoHo or a 10,000-seat concert at Forest Hills Stadium, your event needs a medical plan. City Line Medical provides scalable medical teams, equipment, and event medical plans that satisfy venue requirements, insurance carriers, and permitting agencies — while staying completely invisible to your guests. For events over 5,000 attendees, we deploy a full medical operations center with ALS transport capability, roving BLS teams positioned based on crowd flow analysis, and a dedicated medical director coordinating all on-site response.",
     services: [
       {
         title: 'ALS & BLS Standby',
@@ -277,9 +342,24 @@ export const industries: Industry[] = [
           'Paramedic and EMT teams scaled to your event size and risk profile. From a single medic to a full medical operations center.',
       },
       {
-        title: 'Event Medical Plans',
+        title: 'Event Permitting & Regulatory Compliance',
         description:
-          'Written medical action plans required by venues, insurers, and city permitting. We handle the paperwork so you handle the event.',
+          'NYC special event permits (NYPD, FDNY, DOH) often require a medical action plan as part of the application. We prepare the medical component of your permit paperwork and ensure your event meets all city, state, and venue requirements before doors open.',
+      },
+      {
+        title: 'Mass Gathering Medical Operations',
+        description:
+          'For large-scale events over 1,000 attendees, we deploy mass gathering medicine protocols — including a dedicated medical operations center, ALS transport capability, roving BLS teams, and a medical director on-site coordinating all response.',
+      },
+      {
+        title: 'Marathon & Endurance Event Medical',
+        description:
+          'Medical teams for road races, marathons, triathlons, obstacle courses, and endurance events — including course medical stations, roving medic teams, finish line medical tents, and post-race monitoring.',
+      },
+      {
+        title: 'Music Festival & Multi-Day Event Medical',
+        description:
+          'Multi-day festivals require sustained medical infrastructure — rotating medic shifts, overnight coverage, weather monitoring, and overdose response capability. We deploy comprehensive medical operations for festivals of any scale. Our event medics carry and administer naloxone (Narcan) and are trained in overdose recognition and response.',
       },
       {
         title: 'First Aid Stations',
@@ -333,6 +413,26 @@ export const industries: Industry[] = [
         title: 'Site Evaluations',
         description:
           'Comprehensive walk-throughs identifying hazards, compliance gaps, and opportunities to improve your safety program.',
+      },
+      {
+        title: 'Mock OSHA Inspections',
+        description:
+          "We conduct comprehensive mock OSHA inspections that simulate a real compliance officer visit — identifying violations, documenting findings, and providing prioritized corrective actions so you're prepared before an inspector arrives.",
+      },
+      {
+        title: 'Job Hazard Analysis (JHA)',
+        description:
+          'We develop detailed Job Hazard Analyses and Activity Hazard Analyses for your specific operations — identifying potential hazards for each task and establishing controls before work begins.',
+      },
+      {
+        title: 'Incident Investigation & Root Cause Analysis',
+        description:
+          'When incidents occur, we conduct thorough investigations to identify root causes, develop corrective actions, and implement controls that prevent recurrence — helping you limit future recordables and demonstrate a proactive safety culture to regulators and clients.',
+      },
+      {
+        title: 'Safety Culture Assessment',
+        description:
+          "Beyond compliance, we assess your organization's safety culture — measuring leading indicators, evaluating behavioral safety practices, and identifying gaps between your written programs and how work actually happens in the field.",
       },
       {
         title: 'Emergency Action Plans',

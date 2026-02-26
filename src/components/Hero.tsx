@@ -23,7 +23,7 @@ export default function Hero() {
             <div className="flex flex-wrap gap-3 mb-8">
               <span className="flex items-center gap-2 text-[11px] font-semibold text-navy-400 uppercase tracking-[0.12em] border border-white/10 px-3.5 py-1.5 rounded-full">
                 <MapPin className="w-3 h-3 text-red-500" />
-                NYC &amp; Tri-State
+                Nationwide
               </span>
               <span className="flex items-center gap-2 text-[11px] font-semibold text-navy-400 uppercase tracking-[0.12em] border border-white/10 px-3.5 py-1.5 rounded-full">
                 <Shield className="w-3 h-3 text-red-500" />
@@ -32,15 +32,14 @@ export default function Hero() {
             </div>
 
             <h1 className="font-display font-800 text-[clamp(2.5rem,6vw,4.5rem)] text-white leading-[1.05] tracking-[-0.025em] mb-6">
-              Your crew keeps working.
+              You run the operation.
               <br />
-              <span className="text-red-500">We handle the rest.</span>
+              <span className="text-red-500">We protect your people.</span>
             </h1>
 
             <p className="text-lg text-navy-400 max-w-lg mb-10 leading-relaxed">
-              On-site medics for construction, film sets, and events across the
-              tri-state. Fast response. Full OSHA compliance. Zero production
-              delays.
+              On-site medics for construction, film sets, and events nationwide.
+              Fast response. Full OSHA compliance. Zero production delays.
             </p>
 
             <div className="flex flex-wrap gap-3">

@@ -31,7 +31,7 @@ const reasons = [
     icon: Users,
     title: 'Seamless Team Integration',
     description:
-      'Our HSMTs work alongside your existing EHS team, supporting safety walks, orientations, and administrative tasks.',
+      'Our medical support staff work alongside your existing EHS team, supporting safety walks, orientations, and administrative tasks.',
   },
   {
     icon: Activity,

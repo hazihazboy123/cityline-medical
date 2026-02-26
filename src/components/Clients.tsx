@@ -1,11 +1,13 @@
 const clients = [
-  'Turner Construction',
+  'St. Regis Hotel',
+  'Mondrian',
+  'Hilton',
+  'American Red Cross',
+  'Disney',
   'Silvercup Studios',
   'Cipriani',
   'Broadway Stages',
   'Lendlease',
-  'Related Companies',
-  'Tishman Speyer',
 ]
 
 export default function Clients() {
