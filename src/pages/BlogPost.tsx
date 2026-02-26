@@ -206,7 +206,7 @@ export default function BlogPost() {
                     Need on-site medical?
                   </h3>
                   <p className="text-sm text-navy-400 leading-relaxed mb-4">
-                    Get a free site evaluation from City Line Medical.
+                    Get a free site evaluation from CityLine Medical.
                   </p>
                   <a
                     href="#contact"

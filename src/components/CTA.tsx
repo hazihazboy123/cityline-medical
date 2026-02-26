@@ -22,14 +22,17 @@ export default function CTA() {
     const data = new FormData(form)
 
     try {
-      await fetch('https://formsubmit.co/ajax/info@citylinemedical.com', {
+      const res = await fetch('https://formsubmit.co/ajax/info@citylinemedical.com', {
         method: 'POST',
-        headers: { 'Accept': 'application/json' },
         body: data,
       })
-      setSubmitted(true)
+      if (res.ok) {
+        setSubmitted(true)
+      } else {
+        alert('Something went wrong. Please call (516) 476-9665 or email info@citylinemedical.com directly.')
+      }
     } catch {
-      setSubmitted(true)
+      alert('Something went wrong. Please call (516) 476-9665 or email info@citylinemedical.com directly.')
     } finally {
       setSubmitting(false)
     }
@@ -121,6 +124,7 @@ export default function CTA() {
               >
                 <input type="hidden" name="_subject" value="New CityLine Medical Inquiry" />
                 <input type="hidden" name="_template" value="table" />
+                <input type="hidden" name="_captcha" value="false" />
                 <input type="text" name="_honey" className="hidden" />
 
                 <div className="grid sm:grid-cols-2 gap-5">

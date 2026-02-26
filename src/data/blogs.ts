@@ -59,7 +59,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'Keep Your Log Clean',
-        body: "City Line Medical's on-site medics are trained in OSHA recordkeeping criteria under 29 CFR 1904. They understand the distinction between first aid and medical treatment — and they apply that knowledge in real time, on every injury, on every shift.\n\nThe result for our clients: fewer OSHA recordables, lower TRIRs, protected EMRs, and lower insurance premiums. Not by avoiding care — by providing better, faster, smarter care on-site.\n\nGet a free site evaluation to see how on-site medical support can protect your OSHA 300 log and your bottom line.",
+        body: "CityLine Medical's on-site medics are trained in OSHA recordkeeping criteria under 29 CFR 1904. They understand the distinction between first aid and medical treatment — and they apply that knowledge in real time, on every injury, on every shift.\n\nThe result for our clients: fewer OSHA recordables, lower TRIRs, protected EMRs, and lower insurance premiums. Not by avoiding care — by providing better, faster, smarter care on-site.\n\nGet a free site evaluation to see how on-site medical support can protect your OSHA 300 log and your bottom line.",
       },
     ],
   },
@@ -103,7 +103,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'What EMR Improvement Looks Like',
-        body: "Consider a mid-size specialty contractor with 200 employees, a $600,000 base workers' comp premium, and an EMR of 1.2. They're paying $720,000 annually — $120,000 above average.\n\nAfter implementing on-site medical support, a return-to-work program, and proactive claims management:\n\n- Year 1: Claims frequency drops 40%. New claims are smaller and shorter.\n- Year 2: EMR begins to reflect the improved experience. EMR drops to 1.05.\n- Year 3: EMR drops to 0.85. Annual premium is now $510,000.\n\nThe savings: $210,000 per year in reduced premiums — plus the ability to bid on projects that were previously off-limits due to EMR requirements.\n\nCity Line Medical's on-site protocols are built to protect your EMR. From first-response treatment that keeps injuries at the first-aid level to claims management coordination and return-to-work support, we address every factor that drives your modification rate. Talk to us about a free site evaluation.",
+        body: "Consider a mid-size specialty contractor with 200 employees, a $600,000 base workers' comp premium, and an EMR of 1.2. They're paying $720,000 annually — $120,000 above average.\n\nAfter implementing on-site medical support, a return-to-work program, and proactive claims management:\n\n- Year 1: Claims frequency drops 40%. New claims are smaller and shorter.\n- Year 2: EMR begins to reflect the improved experience. EMR drops to 1.05.\n- Year 3: EMR drops to 0.85. Annual premium is now $510,000.\n\nThe savings: $210,000 per year in reduced premiums — plus the ability to bid on projects that were previously off-limits due to EMR requirements.\n\nCityLine Medical's on-site protocols are built to protect your EMR. From first-response treatment that keeps injuries at the first-aid level to claims management coordination and return-to-work support, we address every factor that drives your modification rate. Talk to us about a free site evaluation.",
       },
     ],
   },
@@ -140,7 +140,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'NYC-Specific Considerations',
-        body: "Shooting in New York adds additional layers:\n\nFilm Permit Medical Requirements: The NYC Mayor's Office of Media and Entertainment has specific medical coverage requirements for certain permit types. Your medical provider should be familiar with these requirements and help you meet them as part of the permit application.\n\nWaterfront and Location Work: NYC productions frequently shoot on waterfronts, rooftops, and locations that introduce additional medical risks. Set medics for these locations should have appropriate certifications and equipment.\n\nBranded Content and Commercial Timelines: Agency shoots and branded content productions in NYC operate on compressed timelines with rotating crews and multiple locations in a single day. Your medical provider needs to deploy fast and flex to your schedule.\n\nGet a set medic on your next production. City Line Medical deploys experienced set medics for film, television, commercial, and branded content productions throughout NYC and nationwide. Contact us for availability and rates.",
+        body: "Shooting in New York adds additional layers:\n\nFilm Permit Medical Requirements: The NYC Mayor's Office of Media and Entertainment has specific medical coverage requirements for certain permit types. Your medical provider should be familiar with these requirements and help you meet them as part of the permit application.\n\nWaterfront and Location Work: NYC productions frequently shoot on waterfronts, rooftops, and locations that introduce additional medical risks. Set medics for these locations should have appropriate certifications and equipment.\n\nBranded Content and Commercial Timelines: Agency shoots and branded content productions in NYC operate on compressed timelines with rotating crews and multiple locations in a single day. Your medical provider needs to deploy fast and flex to your schedule.\n\nGet a set medic on your next production. CityLine Medical deploys experienced set medics for film, television, commercial, and branded content productions throughout NYC and nationwide. Contact us for availability and rates.",
       },
     ],
   },
@@ -177,7 +177,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'Common Risks People Underestimate',
-        body: "Heat Illness at Outdoor Events: Even at moderate temperatures, crowd density, direct sun exposure, alcohol consumption, and physical activity create heat illness risk that event organizers routinely underestimate. Heat-related medical contacts are the single most common event medical issue in summer months.\n\nOverdose Response at Music Events: Opioid and stimulant use at music festivals and concerts is a reality. Your medical plan must include overdose recognition and naloxone (Narcan) administration capability.\n\nCrowd Density: Events that funnel attendees through narrow spaces — entry gates, hallways, stairwells — create crush and trampling risk. Medical positioning must account for these chokepoints.\n\nFood Allergies at Galas and Seated Events: Anaphylaxis from undisclosed allergens is more common at catered events than most planners expect. ALS capability (epinephrine administration) should be available at any event serving food.\n\nWe write the medical plan and provide the team to execute it. City Line Medical prepares event medical plans that satisfy NYC permit requirements, venue mandates, and insurance carriers — and then we staff the plan with experienced event medics. Get a free event assessment.",
+        body: "Heat Illness at Outdoor Events: Even at moderate temperatures, crowd density, direct sun exposure, alcohol consumption, and physical activity create heat illness risk that event organizers routinely underestimate. Heat-related medical contacts are the single most common event medical issue in summer months.\n\nOverdose Response at Music Events: Opioid and stimulant use at music festivals and concerts is a reality. Your medical plan must include overdose recognition and naloxone (Narcan) administration capability.\n\nCrowd Density: Events that funnel attendees through narrow spaces — entry gates, hallways, stairwells — create crush and trampling risk. Medical positioning must account for these chokepoints.\n\nFood Allergies at Galas and Seated Events: Anaphylaxis from undisclosed allergens is more common at catered events than most planners expect. ALS capability (epinephrine administration) should be available at any event serving food.\n\nWe write the medical plan and provide the team to execute it. CityLine Medical prepares event medical plans that satisfy NYC permit requirements, venue mandates, and insurance carriers — and then we staff the plan with experienced event medics. Get a free event assessment.",
       },
     ],
   },
@@ -219,7 +219,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'How On-Site Occupational Health Supports Compliance',
-        body: "City Line Medical's on-site teams handle the medical components of silica compliance: respirator fit testing (both qualitative and quantitative), medical surveillance exam administration and coordination, exposure documentation, and workforce training on silica hazards and controls. We bring the compliance infrastructure to your site — so your workers don't lose productive hours traveling to off-site clinics.\n\nNeed help with silica compliance? Our teams handle respirator fit testing, medical surveillance, and OSHA documentation on-site. Contact us for a free evaluation.",
+        body: "CityLine Medical's on-site teams handle the medical components of silica compliance: respirator fit testing (both qualitative and quantitative), medical surveillance exam administration and coordination, exposure documentation, and workforce training on silica hazards and controls. We bring the compliance infrastructure to your site — so your workers don't lose productive hours traveling to off-site clinics.\n\nNeed help with silica compliance? Our teams handle respirator fit testing, medical surveillance, and OSHA documentation on-site. Contact us for a free evaluation.",
       },
     ],
   },
@@ -294,7 +294,7 @@ export const blogPosts: BlogPost[] = [
         body: "The NYC Department of Buildings enforces Local Law 196 through site inspections. Non-compliance can result in stop work orders, civil penalties, and fines. The penalties apply to the permit holder, making it the contractor's responsibility to ensure all workers and supervisors on-site have completed the required training. DOB inspectors can and do check training cards during site visits.",
       },
       {
-        heading: 'How City Line Medical Helps',
+        heading: 'How CityLine Medical Helps',
         body: "We provide OSHA 10-hour and OSHA 30-hour construction training for your workforce. Our medical support staff work alongside your Site Safety Managers and Coordinators to ensure your site's medical compliance documentation — from first aid logs to incident reports — supports your overall Local Law 196 program.\n\nNeed OSHA training or site safety medical support for your NYC project? Contact us.",
       },
     ],
@@ -334,7 +334,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'How On-Site Medics Prevent Heat Illness',
-        body: "City Line Medical's on-site medics implement heat illness prevention protocols on every site during warm weather operations:\n\nActive Monitoring: Medics conduct regular rounds checking on workers, monitoring conditions, and identifying early symptoms before they escalate.\n\nHydration Station Management: Setting up, stocking, and monitoring hydration stations with water and electrolyte replacement.\n\nEarly Symptom Recognition: Trained to recognize the earliest signs of heat stress — before workers themselves realize they're in trouble.\n\nImmediate Cooling Intervention: When heat illness is identified, medics initiate cooling measures immediately — active cooling, IV fluids (paramedic level), and monitoring.\n\nDocumentation: Every heat-related contact is documented, creating the incident records that demonstrate your compliance with heat prevention requirements.\n\nOur medics implement heat illness prevention protocols on every site. Get a free safety assessment to review your heat illness prevention program.",
+        body: "CityLine Medical's on-site medics implement heat illness prevention protocols on every site during warm weather operations:\n\nActive Monitoring: Medics conduct regular rounds checking on workers, monitoring conditions, and identifying early symptoms before they escalate.\n\nHydration Station Management: Setting up, stocking, and monitoring hydration stations with water and electrolyte replacement.\n\nEarly Symptom Recognition: Trained to recognize the earliest signs of heat stress — before workers themselves realize they're in trouble.\n\nImmediate Cooling Intervention: When heat illness is identified, medics initiate cooling measures immediately — active cooling, IV fluids (paramedic level), and monitoring.\n\nDocumentation: Every heat-related contact is documented, creating the incident records that demonstrate your compliance with heat prevention requirements.\n\nOur medics implement heat illness prevention protocols on every site. Get a free safety assessment to review your heat illness prevention program.",
       },
     ],
   },
@@ -366,7 +366,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'The Discretion Factor',
-        body: "In hospitality, how you handle a medical emergency matters as much as whether you handle it. A front desk employee calling 911 and standing over a guest having a cardiac event in the lobby creates a scene that affects every guest who witnesses it. A trained medical professional handling the same event quietly, professionally, and efficiently protects both the patient and the guest experience.\n\nCity Line Medical builds medical plans for hotels and hospitality venues. We provide trained medical professionals who handle emergencies with discretion and competence — invisible until you need us. Contact us to discuss your property's medical coverage needs.",
+        body: "In hospitality, how you handle a medical emergency matters as much as whether you handle it. A front desk employee calling 911 and standing over a guest having a cardiac event in the lobby creates a scene that affects every guest who witnesses it. A trained medical professional handling the same event quietly, professionally, and efficiently protects both the patient and the guest experience.\n\nCityLine Medical builds medical plans for hotels and hospitality venues. We provide trained medical professionals who handle emergencies with discretion and competence — invisible until you need us. Contact us to discuss your property's medical coverage needs.",
       },
     ],
   },
@@ -401,7 +401,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'Planning a Large-Scale Event?',
-        body: 'City Line Medical deploys full medical operations teams for events of any size — from 500-person corporate events to multi-day festivals with tens of thousands of attendees. We build the medical plan, staff the operation, and coordinate with local EMS and hospital systems. Contact us to discuss your event.',
+        body: 'CityLine Medical deploys full medical operations teams for events of any size — from 500-person corporate events to multi-day festivals with tens of thousands of attendees. We build the medical plan, staff the operation, and coordinate with local EMS and hospital systems. Contact us to discuss your event.',
       },
     ],
   },
@@ -441,7 +441,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'The ROI Calculation',
-        body: "The cost of on-site medical service is a known, budgetable expense. The cost of workers' compensation claims is unpredictable and compounds over years through EMR impact. For a company spending $500,000+ annually on workers' comp premiums, a reduction in claims frequency that lowers EMR by even 0.1 points generates savings that far exceed the cost of on-site medical coverage.\n\nSee how on-site medical can reduce your workers' compensation costs. Request a free site evaluation from City Line Medical.",
+        body: "The cost of on-site medical service is a known, budgetable expense. The cost of workers' compensation claims is unpredictable and compounds over years through EMR impact. For a company spending $500,000+ annually on workers' comp premiums, a reduction in claims frequency that lowers EMR by even 0.1 points generates savings that far exceed the cost of on-site medical coverage.\n\nSee how on-site medical can reduce your workers' compensation costs. Request a free site evaluation from CityLine Medical.",
       },
     ],
   },
@@ -478,7 +478,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'The Business Case',
-        body: "Companies with strong safety cultures don't just have fewer injuries — they win more work, retain better employees, and spend less on insurance. Project owners and general contractors increasingly evaluate safety culture, not just safety metrics, when awarding contracts. A company with an EMR of 0.85 and a robust near-miss reporting program will be preferred over a company with the same EMR but no evidence of proactive safety management.\n\nReady to go beyond compliance? City Line Medical's safety culture assessments identify the gaps your OSHA log doesn't show. Contact us.",
+        body: "Companies with strong safety cultures don't just have fewer injuries — they win more work, retain better employees, and spend less on insurance. Project owners and general contractors increasingly evaluate safety culture, not just safety metrics, when awarding contracts. A company with an EMR of 0.85 and a robust near-miss reporting program will be preferred over a company with the same EMR but no evidence of proactive safety management.\n\nReady to go beyond compliance? CityLine Medical's safety culture assessments identify the gaps your OSHA log doesn't show. Contact us.",
       },
     ],
   },
@@ -513,7 +513,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'What You Get',
-        body: "A prioritized report with every finding, organized by severity. Each finding includes the specific OSHA standard citation, a photograph documenting the condition, the proposed corrective action, and a recommended timeline for completion. High-priority findings (imminent danger, serious violations) are flagged for immediate action. The report gives your safety team a clear, actionable roadmap — no surprises when the real inspector arrives.\n\nSchedule a mock OSHA inspection before a real one finds you. Contact City Line Medical.",
+        body: "A prioritized report with every finding, organized by severity. Each finding includes the specific OSHA standard citation, a photograph documenting the condition, the proposed corrective action, and a recommended timeline for completion. High-priority findings (imminent danger, serious violations) are flagged for immediate action. The report gives your safety team a clear, actionable roadmap — no surprises when the real inspector arrives.\n\nSchedule a mock OSHA inspection before a real one finds you. Contact CityLine Medical.",
       },
     ],
   },
@@ -546,7 +546,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'What a Set Medic Provides on a Commercial Shoot',
-        body: "Immediate first response — no ER trips for minor injuries that a medic can handle on-set. Documentation for your production insurance in case anything does happen. Heat and cold monitoring for outdoor shoots. The confidence that a medical event won't blow your schedule and your budget.\n\nNeed a set medic for a commercial shoot? City Line Medical deploys fast — even on 24-hour notice. Contact us for availability and rates.",
+        body: "Immediate first response — no ER trips for minor injuries that a medic can handle on-set. Documentation for your production insurance in case anything does happen. Heat and cold monitoring for outdoor shoots. The confidence that a medical event won't blow your schedule and your budget.\n\nNeed a set medic for a commercial shoot? CityLine Medical deploys fast — even on 24-hour notice. Contact us for availability and rates.",
       },
     ],
   },

@@ -55,7 +55,7 @@ export default function Blog() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="font-display font-800 text-[clamp(2.5rem,6vw,4.5rem)] text-white leading-[1.05] tracking-[-0.025em] mb-6"
           >
-            The City Line Blog
+            The CityLine Blog
           </motion.h1>
 
           <motion.p

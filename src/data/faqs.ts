@@ -24,7 +24,7 @@ export const faqs: PageFAQ[] = [
           "Every workers' compensation claim impacts your Experience Modification Rate (EMR), which directly determines your insurance premiums. On-site medics treat injuries immediately, keeping treatment at the first-aid level whenever clinically appropriate. This reduces ER visits, prevents incidents from becoming OSHA recordables, and lowers your overall claims frequency — all of which drive your EMR down and save you money on premiums. Many of our clients see EMR improvements within the first policy year.",
       },
       {
-        question: 'What industries does City Line Medical serve?',
+        question: 'What industries does CityLine Medical serve?',
         answer:
           'We provide on-site medical services for construction, industrial and manufacturing, film and television production, hospitality, events, and safety consulting. Our teams are experienced in the unique hazards, compliance requirements, and operational pace of each industry — from OSHA-regulated construction sites to fast-moving film sets to large-scale public events.',
       },
@@ -36,12 +36,12 @@ export const faqs: PageFAQ[] = [
       {
         question: 'What areas do you serve?',
         answer:
-          'City Line Medical is headquartered in New York and serves clients nationwide. Our core operations span the NYC metro area, Long Island, Westchester, Northern New Jersey, and Connecticut, with the ability to deploy medical teams to projects and events anywhere in the United States.',
+          'CityLine Medical is headquartered in New York and serves clients nationwide. Our core operations span the NYC metro area, Long Island, Westchester, Northern New Jersey, and Connecticut, with the ability to deploy medical teams to projects and events anywhere in the United States.',
       },
       {
-        question: 'Is City Line Medical a Minority Business Enterprise?',
+        question: 'Is CityLine Medical a Minority Business Enterprise?',
         answer:
-          'Yes. City Line Medical is a certified Minority Business Enterprise (MBE), which can support your diversity and inclusion contracting goals on construction, industrial, and government projects.',
+          'Yes. CityLine Medical is a certified Minority Business Enterprise (MBE), which can support your diversity and inclusion contracting goals on construction, industrial, and government projects.',
       },
     ],
   },
