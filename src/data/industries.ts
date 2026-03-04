@@ -258,85 +258,12 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: 'hospitality',
-    name: 'Hospitality',
-    tagline: 'Discreet medical presence for venues and private events.',
-    heroHeadline: 'Invisible Until You Need Us.',
-    heroSub:
-      'Medical staffing for hotels, restaurants, private events, and venues where discretion matters as much as capability.',
-    description:
-      "In hospitality, a medical emergency handled poorly can damage your reputation, disrupt your guests, and expose your business to liability. CityLine Medical provides trained medical professionals who blend seamlessly into your venue environment — handling everything from guest cardiac events and allergic reactions to staff injuries and intoxication incidents with professionalism and complete discretion. Whether you operate a luxury hotel, a high-volume restaurant group, a casino property, or a convention center, our teams are invisible until the moment they're needed.",
-    services: [
-      {
-        title: 'Venue Medical Staff',
-        description:
-          'Licensed medics embedded in your venue operation. Professional appearance, discreet positioning, immediate availability.',
-      },
-      {
-        title: 'AED Programs & Cardiac Preparedness',
-        description:
-          'We supply, place, maintain, and train your staff on Automated External Defibrillators (AEDs) to meet local and state requirements. Our medics are positioned and equipped for immediate cardiac emergency response in hotels, venues, and large hospitality properties.',
-      },
-      {
-        title: 'Anaphylaxis & Allergy Response',
-        description:
-          'Allergic reactions are one of the most common medical emergencies in restaurants and hotels. Our medics are trained in epinephrine administration, anaphylaxis management, and rapid stabilization — providing immediate response before EMS arrival and protecting your guests and your liability exposure.',
-      },
-      {
-        title: 'Convention & Large Venue Medical',
-        description:
-          'For convention centers, conference facilities, and large-format hospitality venues, we provide scalable medical staffing — from a single medic for a multi-day conference to a full medical operations team for major trade shows and expos.',
-      },
-      {
-        title: 'Casino & Gaming Properties',
-        description:
-          'Medical staffing for casino floors, gaming venues, and entertainment complexes. Our teams handle guest medical events, staff injuries, and the unique health and safety challenges of 24/7 gaming environments — including addiction-related incidents and patron welfare.',
-      },
-      {
-        title: 'Intoxication & Liquor Liability Management',
-        description:
-          'Our medics are trained in managing intoxicated guests, documenting incidents for liquor liability defense, and coordinating safe transport when necessary. Professional, discreet handling that protects your venue and your guests.',
-      },
-      {
-        title: 'Private Event Coverage',
-        description:
-          'Medical standby for gallery openings, private dinners, charity galas, rooftop parties, and intimate gatherings.',
-      },
-      {
-        title: 'Staff Injury Management',
-        description:
-          'On-site treatment for kitchen burns, slips, falls, and repetitive strain injuries. Keep your team working, reduce ER visits.',
-      },
-      {
-        title: 'Claims Oversight',
-        description:
-          "Workers' comp documentation and claims management for hospitality-specific injuries and incidents.",
-      },
-    ],
-    testimonials: [
-      {
-        quote:
-          "We host 300+ events a year. CityLine handles our medical coverage for everything from intimate wine dinners to New Year's Eve. Our guests never even know they're there.",
-        name: 'Thomas A.',
-        title: 'Director of Operations',
-
-      },
-      {
-        quote:
-          "When a guest had a cardiac event during a private dinner, CityLine's medic had it handled before the ambulance arrived. That level of response is why we use them exclusively.",
-        name: 'Maria S.',
-        title: 'General Manager',
-
-      },
-    ],
-  },
-  {
     slug: 'events',
-    name: 'Events',
-    tagline: 'From corporate dinners to concerts — medical teams that scale.',
+    name: 'Events & Festivals',
+    tagline: 'From corporate dinners to music festivals — medical teams that scale.',
     heroHeadline: 'Every Event Covered.',
     heroSub:
-      'Medical standby teams for concerts, galas, fashion shows, corporate events, product launches, popup markets, and everything in between.',
+      'Medical standby teams for concerts, festivals, galas, fashion shows, corporate events, product launches, popup markets, and everything in between.',
     description:
       "Whether it's a 50-person product launch in SoHo or a 10,000-seat concert at Forest Hills Stadium, your event needs a medical plan. CityLine Medical provides scalable medical teams, equipment, and event medical plans that satisfy venue requirements, insurance carriers, and permitting agencies — while staying completely invisible to your guests. For events over 5,000 attendees, we deploy a full medical operations center with roving BLS teams positioned based on crowd flow analysis and a medical director coordinating all response.",
     services: [
@@ -400,6 +327,143 @@ export const industries: Industry[] = [
         name: 'Priya P.',
         title: 'Senior Producer',
 
+      },
+    ],
+  },
+  {
+    slug: 'sports',
+    name: 'Sports & Athletic Events',
+    tagline: 'Medical standby for games, tournaments, and athletic competitions.',
+    heroHeadline: 'Game-Ready Medical Coverage.',
+    heroSub:
+      'On-site medical teams for professional sports, amateur leagues, tournaments, marathons, and athletic events of any scale. Headquartered in New York.',
+    description:
+      "Athletic events carry inherent medical risk — from acute musculoskeletal injuries and concussions to cardiac events, heat illness, and overexertion. CityLine Medical provides experienced sports medicine standby teams that understand the pace of competition and the specific injury patterns of each sport. Whether you're hosting a youth soccer tournament, a professional boxing match, a marathon, or an ice hockey game, our medics are positioned for immediate response so athletes get care in seconds, not minutes.",
+    services: [
+      {
+        title: 'Sideline Medical Standby',
+        description:
+          'Licensed medics positioned at field level, court side, or rink side for immediate response to player injuries. Our teams carry advanced first aid equipment, splinting supplies, AEDs, and cervical stabilization devices — ready for anything from a sprained ankle to a cardiac event.',
+      },
+      {
+        title: 'Concussion Assessment & Management',
+        description:
+          'Sideline concussion evaluation using standardized assessment tools. Our medics are trained in recognizing concussion signs, performing initial neurological assessments, and making return-to-play recommendations in accordance with current sports medicine protocols.',
+      },
+      {
+        title: 'Marathon & Endurance Event Medical',
+        description:
+          'Medical teams for road races, marathons, triathlons, obstacle courses, and endurance events — including course medical stations, roving medic teams, finish line medical tents, and post-race monitoring for exertional heat illness, hyponatremia, and cardiac events.',
+      },
+      {
+        title: 'Tournament & League Coverage',
+        description:
+          'Multi-day tournament medical staffing for youth and adult leagues across all sports. We scale coverage based on the number of fields, courts, or rinks in play — ensuring every game has medical support without overstaffing.',
+      },
+      {
+        title: 'Ice Rink & Winter Sports Medical',
+        description:
+          'Medical standby for ice skating rinks, hockey games, and winter sporting events. Our medics are experienced with cold-environment injuries, lacerations from skate blades, and the unique challenges of ice venue medical response.',
+      },
+      {
+        title: 'Combat Sports Medical',
+        description:
+          'Ringside medical teams for boxing, MMA, wrestling, and martial arts events. We meet state athletic commission requirements for medical personnel and carry the equipment and medications required by sanctioning bodies.',
+      },
+      {
+        title: 'Heat Illness Prevention & Monitoring',
+        description:
+          'For outdoor athletic events, we implement heat illness prevention protocols including wet bulb globe temperature monitoring, hydration station management, cold water immersion tubs, and athlete monitoring — following current NATA and ACSM guidelines.',
+      },
+      {
+        title: 'Event Medical Plans',
+        description:
+          'Comprehensive medical action plans that satisfy venue requirements, insurance carriers, and athletic governing bodies. Includes emergency action protocols, hospital routing, communication plans, and AED placement maps.',
+      },
+      {
+        title: 'Post-Event Reporting',
+        description:
+          'HIPAA-compliant incident documentation for every medical contact. Summary reports for event organizers, insurance carriers, and governing bodies.',
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          'CityLine has been our medical provider for every tournament at our facility for two years. Their medics understand sports injuries and respond fast. Parents and coaches trust them.',
+        name: 'Derek L.',
+        title: 'Athletic Director',
+      },
+      {
+        quote:
+          "We needed ringside medical for a sanctioned boxing card. CityLine met every requirement from the state athletic commission and handled three injuries without a single delay between bouts.",
+        name: 'Tony R.',
+        title: 'Event Promoter',
+      },
+    ],
+  },
+  {
+    slug: 'corporate',
+    name: 'Corporate & Private Venues',
+    tagline: 'Discreet medical presence for venues and corporate spaces.',
+    heroHeadline: 'Invisible Until You Need Us.',
+    heroSub:
+      'Medical staffing for corporate campuses, private venues, convention centers, and high-profile gatherings where discretion matters as much as capability.',
+    description:
+      "Corporate environments and private venues demand medical teams that blend seamlessly into the setting — handling everything from employee medical events and guest incidents to executive health concerns with professionalism and complete discretion. CityLine Medical provides trained medical professionals for corporate campuses, convention centers, private clubs, galleries, and high-profile venues. Our teams are invisible until the moment they're needed, and their presence protects your organization, your guests, and your liability exposure.",
+    services: [
+      {
+        title: 'Corporate Campus Medical',
+        description:
+          'On-site medical professionals for corporate offices, headquarters, and campus environments. We handle employee medical events, workplace injuries, and health screenings — reducing ER visits and keeping your workforce productive.',
+      },
+      {
+        title: 'Convention & Conference Medical',
+        description:
+          'Scalable medical staffing for conventions, trade shows, conferences, and large corporate gatherings. From a single medic for a one-day conference to a full medical operations team for multi-day expos with thousands of attendees.',
+      },
+      {
+        title: 'Private Event Coverage',
+        description:
+          'Medical standby for gallery openings, private dinners, charity galas, rooftop parties, award ceremonies, and intimate corporate gatherings. Professional, discreet, and positioned where your guests need them.',
+      },
+      {
+        title: 'AED Programs & Cardiac Preparedness',
+        description:
+          'We supply, place, maintain, and train your staff on Automated External Defibrillators (AEDs) to meet local and state requirements. Our medics are positioned and equipped for immediate cardiac emergency response across your facility.',
+      },
+      {
+        title: 'Executive Health & Wellness',
+        description:
+          'On-site health screenings, flu vaccinations, blood pressure monitoring, and wellness programs for corporate employees. Convenient, confidential, and administered by licensed medical professionals.',
+      },
+      {
+        title: 'Venue Medical Staffing',
+        description:
+          'Licensed medics embedded in your venue operation for ongoing or recurring needs. Professional appearance, discreet positioning, and immediate availability for any medical event.',
+      },
+      {
+        title: 'Emergency Action Plans',
+        description:
+          'Written emergency action plans tailored to your facility — including evacuation procedures, medical response protocols, AED placement, and communication plans that satisfy building management and insurance requirements.',
+      },
+      {
+        title: 'Incident Documentation',
+        description:
+          'HIPAA-compliant records for every medical contact. Clean documentation for corporate risk management, insurance carriers, and HR departments.',
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We host 200+ corporate events a year. CityLine handles our medical coverage seamlessly — our clients never even know they're there until someone needs them.",
+        name: 'Catherine W.',
+        title: 'Director of Operations',
+      },
+      {
+        quote:
+          "Having dedicated medical staff at our corporate campus reduced our ER referrals by 60% in the first year. The ROI was immediate.",
+        name: 'James P.',
+        title: 'VP of Facilities',
       },
     ],
   },

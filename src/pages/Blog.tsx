@@ -9,7 +9,9 @@ const categoryColors: Record<string, string> = {
   Construction: 'bg-amber-100 text-amber-800',
   Industrial: 'bg-blue-100 text-blue-800',
   'Media & Film': 'bg-purple-100 text-purple-800',
-  Hospitality: 'bg-emerald-100 text-emerald-800',
+  'Events & Festivals': 'bg-pink-100 text-pink-800',
+  'Sports & Athletic Events': 'bg-emerald-100 text-emerald-800',
+  'Corporate & Private Venues': 'bg-cyan-100 text-cyan-800',
   Events: 'bg-pink-100 text-pink-800',
   'Safety Consulting': 'bg-slate-100 text-slate-700',
 }

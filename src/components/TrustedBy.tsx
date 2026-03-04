@@ -2,11 +2,15 @@ import { motion } from 'motion/react'
 
 const logos = [
   { name: 'St. Regis Hotel', src: '/logos/stregis.svg' },
-  { name: 'Mondrian', src: '/logos/mondrian.svg' },
-  { name: 'Hilton', src: '/logos/hilton.svg' },
+  { name: 'Turner Construction', src: '/logos/turner.svg' },
   { name: 'American Red Cross', src: '/logos/redcross.png' },
   { name: 'Disney', src: '/logos/disney.svg' },
   { name: 'Monadnock Construction', src: '/logos/monadnock.svg' },
+  { name: 'Tishman Speyer', src: '/logos/tishman.svg' },
+  { name: 'Rockefeller Center', src: '/logos/rockefeller.svg' },
+  { name: 'Wollman Ice Rink', src: '/logos/wollman.svg' },
+  { name: 'Roosevelt Hotel', src: '/logos/roosevelt.svg' },
+  { name: 'Lincoln Center', src: '/logos/lincoln.svg' },
 ]
 
 export default function TrustedBy() {

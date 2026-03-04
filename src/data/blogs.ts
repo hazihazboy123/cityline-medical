@@ -28,7 +28,7 @@ export const blogPosts: BlogPost[] = [
       'The line between a first-aid case and an OSHA recordable can cost you hundreds of thousands in insurance premiums. Here\'s exactly how the classification works under 29 CFR 1904.7 — and how on-site medics keep your log clean.',
     metaDescription:
       'Learn the difference between OSHA recordables and first-aid cases under 29 CFR 1904.7. See how on-site medics keep your OSHA 300 log clean.',
-    publishDate: '2026-03-01',
+    publishDate: '2025-08-05',
     readTime: 8,
     tier: 1,
     industryLinks: ['construction', 'industrial'],
@@ -72,7 +72,7 @@ export const blogPosts: BlogPost[] = [
       'Your EMR determines your workers\' comp premiums and whether you can bid on work. Here\'s how it\'s calculated, why it matters, and five proven strategies to lower it.',
     metaDescription:
       'Understand your Experience Modification Rate (EMR), how it impacts insurance premiums and bidding, and 5 strategies to lower it with on-site medical support.',
-    publishDate: '2026-03-01',
+    publishDate: '2025-08-18',
     readTime: 9,
     tier: 1,
     industryLinks: ['construction', 'industrial'],
@@ -116,7 +116,7 @@ export const blogPosts: BlogPost[] = [
       'Union rules, NYC permits, and production insurance all have medical requirements. Here\'s when a set medic is required, when it\'s recommended, and what to look for.',
     metaDescription:
       'Set medic requirements for NYC film productions: SAG-AFTRA rules, NYC permits, and insurance mandates. Learn when you need a set medic and what they do.',
-    publishDate: '2026-03-15',
+    publishDate: '2025-09-02',
     readTime: 6,
     tier: 1,
     industryLinks: ['media'],
@@ -148,12 +148,12 @@ export const blogPosts: BlogPost[] = [
     slug: 'event-medical-plan-nyc',
     title:
       'How to Build a Medical Plan for Your Next Event: NYC Permit Requirements Explained',
-    categories: ['Events'],
+    categories: ['Events & Festivals'],
     excerpt:
       'NYC event permits require a medical action plan. Here\'s what goes into one, what level of coverage you need, and how to get it done right.',
     metaDescription:
       'NYC event medical plan requirements explained: ALS vs BLS coverage, staffing guidelines by event size, and what your permit application needs.',
-    publishDate: '2026-03-15',
+    publishDate: '2025-09-15',
     readTime: 7,
     tier: 1,
     industryLinks: ['events'],
@@ -192,7 +192,7 @@ export const blogPosts: BlogPost[] = [
       'OSHA\'s respirable crystalline silica standard (1926.1153) has specific medical surveillance and exposure control requirements. Here\'s what you need to know.',
     metaDescription:
       'OSHA silica standard 1926.1153 compliance guide: PEL requirements, Table 1 controls, medical surveillance, and how on-site health services support compliance.',
-    publishDate: '2026-04-01',
+    publishDate: '2025-10-01',
     readTime: 9,
     tier: 2,
     industryLinks: ['construction', 'safety'],
@@ -232,7 +232,7 @@ export const blogPosts: BlogPost[] = [
       'Permit-required confined space entries carry life-threatening risks. Here\'s when medical standby is required and what it looks like in practice.',
     metaDescription:
       'Confined space medical standby requirements under OSHA 1926.1203 and 1910.146. When you need medical standby and what it involves on-site.',
-    publishDate: '2026-04-01',
+    publishDate: '2025-10-14',
     readTime: 6,
     tier: 2,
     industryLinks: ['construction', 'industrial', 'safety'],
@@ -268,7 +268,7 @@ export const blogPosts: BlogPost[] = [
       'Local Law 196 mandates OSHA training for NYC construction workers and supervisors. Here\'s who it applies to, what\'s required, and how to stay compliant.',
     metaDescription:
       'Local Law 196 NYC construction safety training requirements: OSHA 10/30 mandates, DOB enforcement, and compliance support for contractors.',
-    publishDate: '2026-04-15',
+    publishDate: '2025-10-28',
     readTime: 6,
     tier: 2,
     industryLinks: ['construction', 'safety'],
@@ -302,12 +302,12 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'heat-illness-prevention',
     title: "Heat Illness Prevention on Job Sites: An Employer's Guide",
-    categories: ['Construction', 'Industrial', 'Events'],
+    categories: ['Construction', 'Industrial', 'Events & Festivals'],
     excerpt:
       'Heat illness is OSHA\'s top enforcement priority. Here\'s how to build a prevention program that protects your crew and keeps you compliant.',
     metaDescription:
       'Heat illness prevention guide for construction, industrial, and event employers. OSHA requirements, prevention measures, and on-site medical protocols.',
-    publishDate: '2026-04-15',
+    publishDate: '2025-11-11',
     readTime: 7,
     tier: 2,
     industryLinks: ['construction', 'industrial', 'events'],
@@ -341,12 +341,12 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'hotel-emergency-medical-plan',
     title: 'Why Every Hotel Needs an Emergency Medical Plan',
-    categories: ['Hospitality'],
+    categories: ['Corporate & Private Venues'],
     excerpt:
       'Cardiac events, allergic reactions, and guest injuries create serious liability for hotels. Here\'s how to build a medical plan that protects your guests and your business.',
     metaDescription:
       'Hotel emergency medical plan guide: AED requirements, staff training, medical staffing, and liability protection for hospitality properties.',
-    publishDate: '2026-05-01',
+    publishDate: '2025-11-25',
     readTime: 6,
     tier: 2,
     industryLinks: ['hospitality'],
@@ -376,12 +376,12 @@ export const blogPosts: BlogPost[] = [
     slug: 'mass-gathering-medicine',
     title:
       'Mass Gathering Medicine: How Large Events Should Plan for Medical Emergencies',
-    categories: ['Events'],
+    categories: ['Events & Festivals'],
     excerpt:
       'Events over 5,000 attendees require a specialized medical approach. Here\'s how mass gathering medicine works and why your event needs it.',
     metaDescription:
       'Mass gathering medicine for large events: medical operations structure, risk factors, and staffing for events over 5,000 attendees.',
-    publishDate: '2026-05-15',
+    publishDate: '2025-12-09',
     readTime: 6,
     tier: 3,
     industryLinks: ['events'],
@@ -414,7 +414,7 @@ export const blogPosts: BlogPost[] = [
       'On-site medical isn\'t just a safety measure — it\'s a financial strategy. Here\'s how it reduces claims frequency, EMR, and total workers\' comp spend.',
     metaDescription:
       "How on-site medical services reduce workers' compensation costs through claims prevention, EMR reduction, and return-to-work programs.",
-    publishDate: '2026-05-15',
+    publishDate: '2025-12-22',
     readTime: 7,
     tier: 3,
     industryLinks: ['construction', 'industrial'],
@@ -454,7 +454,7 @@ export const blogPosts: BlogPost[] = [
       'Meeting OSHA standards keeps you legal. Building a safety culture keeps you safe. Here\'s how to measure the difference — and close the gap.',
     metaDescription:
       'Safety culture vs. compliance: leading indicators, behavioral safety, and how culture assessments identify risks your OSHA log doesn\'t show.',
-    publishDate: '2026-06-01',
+    publishDate: '2026-01-06',
     readTime: 7,
     tier: 3,
     industryLinks: ['safety'],
@@ -490,7 +490,7 @@ export const blogPosts: BlogPost[] = [
       'A mock OSHA inspection finds the violations before a real inspector does. Here\'s what the process looks like and why it\'s worth the investment.',
     metaDescription:
       'Mock OSHA inspection guide: what we inspect, the process, deliverables, and how to prepare for a real OSHA visit before it happens.',
-    publishDate: '2026-06-01',
+    publishDate: '2026-01-20',
     readTime: 5,
     tier: 3,
     industryLinks: ['safety'],
@@ -526,7 +526,7 @@ export const blogPosts: BlogPost[] = [
       'One-day commercial shoots skip the medic to save budget — then lose the day when someone gets hurt. Here\'s why shorter productions still need coverage.',
     metaDescription:
       'Why branded content and commercial productions need set medics: insurance requirements, permit compliance, and the real cost of skipping medical coverage.',
-    publishDate: '2026-06-15',
+    publishDate: '2026-02-03',
     readTime: 4,
     tier: 3,
     industryLinks: ['media'],
@@ -550,6 +550,303 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  // ─── NEW SEO POSTS ───────────────────────────────────
+  {
+    slug: 'how-many-emts-for-event',
+    title: 'How Many EMTs Do You Need for an Event?',
+    categories: ['Events & Festivals'],
+    excerpt:
+      'The number of medical staff your event needs depends on attendance, risk profile, venue layout, and local regulations. Here\'s a practical guide to getting the staffing right.',
+    metaDescription:
+      'How many EMTs and medics do you need for your event? Staffing guidelines by attendance, risk level, and venue type for event organizers.',
+    publishDate: '2026-02-10',
+    readTime: 6,
+    tier: 2,
+    industryLinks: ['events'],
+    relatedSlugs: ['event-medical-plan-nyc', 'mass-gathering-medicine'],
+    content: [
+      {
+        heading: 'There\'s No One-Size-Fits-All Answer',
+        body: "The number of EMTs and paramedics your event needs isn't a simple formula — it depends on the size of your crowd, the type of event, the venue layout, weather conditions, the demographics of your attendees, and what local authorities require. A 500-person corporate dinner has a very different risk profile than a 500-person outdoor concert.\n\nThat said, there are established guidelines and practical benchmarks that event organizers can use to plan medical coverage. Getting this number wrong — in either direction — costs you money. Too few medics means longer response times, potential liability, and the risk of a medical emergency overwhelming your team. Too many means unnecessary expense.",
+      },
+      {
+        heading: 'General Staffing Benchmarks',
+        body: "While every event is unique, here are the benchmarks most medical providers and permitting agencies use as a starting point:\n\nSmall events (under 1,000 attendees): 1–2 EMTs or a single BLS team. Suitable for corporate gatherings, private parties, and low-risk indoor events.\n\nMedium events (1,000–5,000 attendees): 2–4 EMTs plus a medical command point. Consider ALS (paramedic) coverage depending on demographics and risk.\n\nLarge events (5,000–15,000 attendees): 4–8 EMTs, 1–2 paramedics, a dedicated medical operations center, and roving teams positioned based on crowd flow.\n\nMass gatherings (15,000+ attendees): Full medical operations with a medical director, multiple BLS and ALS teams, fixed medical stations, roving units, and coordination with local EMS.\n\nThese are starting points — your actual staffing should be adjusted based on the specific risk factors of your event.",
+      },
+      {
+        heading: 'Risk Factors That Increase Staffing',
+        body: "Several factors should push your staffing numbers higher:\n\nAlcohol service: Events where alcohol is served consistently generate more medical contacts — from intoxication to falls to fights. Expect 2–3x the medical contact rate of dry events.\n\nOutdoor venues: Heat illness, cold exposure, uneven terrain, and weather changes all increase risk. Outdoor events need more coverage than indoor events of the same size.\n\nPhysically active events: Marathons, obstacle courses, dance festivals, and sporting events generate musculoskeletal injuries, cardiac events, and exertional emergencies at higher rates.\n\nDemographics: Events with older attendees or young children may need ALS (paramedic) coverage for cardiac and pediatric emergencies. Youth sporting events need staff experienced in pediatric assessment.\n\nMulti-day events: Fatigue, cumulative exposure, and overnight conditions require rotating medical shifts and sustained staffing.\n\nRemote locations: If the nearest hospital is more than 15 minutes away, you need more on-site capability — including ALS teams that can stabilize patients for longer transport times.",
+      },
+      {
+        heading: 'What NYC Requires',
+        body: "In New York City, event permits issued through NYPD, FDNY, and the Department of Health often include specific medical staffing requirements based on attendance and event type. Street fairs, concerts, athletic events, and events with pyrotechnics have different medical mandates.\n\nThe NYC Department of Health requires a medical action plan for events over certain thresholds, and FDNY may require specific EMS standby for events involving fire effects, fireworks, or large crowd density. Working with a medical provider who understands NYC permitting saves you time and ensures your application isn't sent back for revision.",
+      },
+      {
+        heading: 'Get the Number Right',
+        body: "The easiest way to determine the right staffing level is to work with a medical provider who has experience with events like yours. CityLine Medical provides free event assessments — we'll review your venue, attendance, risk factors, and permit requirements, then recommend a staffing plan that covers your event without overspending.\n\nRequest a free event medical assessment today.",
+      },
+    ],
+  },
+  {
+    slug: 'what-is-medical-standby',
+    title: 'What Is Medical Standby? A Complete Guide for Event and Site Managers',
+    categories: ['Events & Festivals', 'Construction', 'Sports & Athletic Events'],
+    excerpt:
+      'Medical standby means having licensed medical professionals on-site and ready to respond. Here\'s what it involves, when you need it, and what to expect from a provider.',
+    metaDescription:
+      'What is medical standby? Learn what on-site medical standby includes, when it\'s required, and how to choose a medical standby provider for events, construction, and sports.',
+    publishDate: '2026-02-17',
+    readTime: 7,
+    tier: 2,
+    industryLinks: ['events', 'construction', 'sports'],
+    relatedSlugs: ['how-many-emts-for-event', 'event-medical-plan-nyc'],
+    content: [
+      {
+        heading: 'Medical Standby Defined',
+        body: "Medical standby is the practice of stationing licensed medical professionals — typically EMTs, paramedics, or registered nurses — at a location where there is an elevated risk of injury or medical emergency. The medical team is on-site, equipped, and immediately available to respond to any medical event that occurs during the operation or event.\n\nUnlike calling 911 and waiting for an ambulance, medical standby puts trained responders at the point of risk. Response times drop from 10–20 minutes to under 2 minutes. For time-sensitive emergencies — cardiac arrest, severe bleeding, anaphylaxis — that difference is the difference between a good outcome and a bad one.",
+      },
+      {
+        heading: 'When Medical Standby Is Required',
+        body: "Medical standby is legally or contractually required in more situations than most people realize:\n\nConstruction sites: OSHA 1926.50 requires that medical personnel be available for advice and consultation on matters of occupational health. For remote sites or sites with serious hazards, on-site medics may be required.\n\nFilm and TV productions: SAG-AFTRA and IATSE collective bargaining agreements require set medics for productions that meet certain thresholds. NYC film permits require medical coverage for specific production types.\n\nSporting events: State athletic commissions require ringside medical for combat sports. Many youth sports organizations require medical standby for tournaments. Marathon and endurance event permits require medical teams.\n\nLarge events: NYC and most municipalities require medical coverage for events over certain attendance thresholds. Insurance carriers often mandate medical standby as a condition of coverage.\n\nEven when not legally required, medical standby is a best practice that reduces liability, improves outcomes, and provides documentation that protects your organization.",
+      },
+      {
+        heading: 'What a Medical Standby Team Provides',
+        body: "A professional medical standby team brings more than first aid kits. Here's what you should expect:\n\nImmediate emergency response — BLS or ALS-level care within seconds of an incident.\n\nFirst aid treatment — wound care, splinting, burn treatment, and other first-aid-level interventions that prevent unnecessary ER visits.\n\nMedical equipment — AEDs, oxygen delivery, cervical stabilization, advanced airway management (ALS), and pharmacological intervention (ALS).\n\nIncident documentation — HIPAA-compliant records of every medical contact for your records, insurance, and regulatory compliance.\n\nEMS coordination — if a patient needs hospital transport, your standby team initiates the call, provides a clinical handoff to the ambulance crew, and manages the scene until transport departs.\n\nMedical action planning — pre-event or pre-project planning that identifies risks, establishes protocols, and coordinates with local EMS and hospitals.",
+      },
+      {
+        heading: 'BLS vs. ALS Coverage',
+        body: "BLS (Basic Life Support) coverage is provided by EMTs. They handle first aid, CPR, AED use, oxygen administration, and basic emergency care. BLS is appropriate for most events and job sites.\n\nALS (Advanced Life Support) coverage is provided by paramedics. They can administer medications, perform advanced airway management, read cardiac monitors, and provide a higher level of intervention. ALS is recommended for high-risk events, large gatherings, athletic competitions, and any situation where cardiac emergencies or severe trauma are possible.\n\nMany events use a combination — BLS teams for roving coverage with an ALS team at the medical command post for escalation.",
+      },
+      {
+        heading: 'How to Choose a Provider',
+        body: "Not all medical standby providers are equal. Look for licensed, insured providers whose staff hold current certifications (EMT, paramedic, RN). Ask about their experience with your specific type of event or operation. Verify they carry their own malpractice and general liability insurance. Confirm they provide HIPAA-compliant documentation.\n\nCityLine Medical provides medical standby services for construction sites, events, sports, and productions across New York and the Northeast. Contact us for a free consultation and customized staffing plan.",
+      },
+    ],
+  },
+  {
+    slug: 'medical-coverage-sports-events',
+    title: 'Medical Coverage for Sports Events: What Organizers Need to Know',
+    categories: ['Sports & Athletic Events'],
+    excerpt:
+      'From youth tournaments to professional matches, athletic events carry unique medical risks. Here\'s what sports organizers should plan for and what medical coverage looks like.',
+    metaDescription:
+      'Medical coverage guide for sports events: sideline medical, concussion protocols, heat illness prevention, and staffing for tournaments, games, and athletic competitions.',
+    publishDate: '2026-02-24',
+    readTime: 8,
+    tier: 2,
+    industryLinks: ['sports'],
+    relatedSlugs: ['what-is-medical-standby', 'how-many-emts-for-event'],
+    content: [
+      {
+        heading: 'Why Sports Events Need Dedicated Medical Coverage',
+        body: "Athletic events generate injuries at significantly higher rates than other types of gatherings. Sprains, fractures, dislocations, concussions, lacerations, and cardiac events are all part of the landscape. The risk profile varies by sport, competition level, and environmental conditions — but the need for immediate medical response is universal.\n\nRelying on calling 911 for sports injuries is inadequate. Average urban EMS response time is 8–12 minutes. For a cardiac arrest on the field, brain damage begins at 4 minutes without intervention. For a suspected spinal injury, improper handling in the first minutes can cause permanent damage. Having trained medical staff sideline-ready eliminates the response gap.",
+      },
+      {
+        heading: 'Common Medical Emergencies in Sports',
+        body: "Musculoskeletal injuries: Sprains, strains, fractures, and dislocations are the most common. Immediate evaluation determines whether an athlete can return to play or needs transport.\n\nConcussions: Concussion evaluation requires sideline assessment using standardized tools. Returning a concussed athlete to play risks second-impact syndrome — a potentially fatal condition.\n\nCardiac events: Sudden cardiac arrest is the leading cause of death in young athletes. Immediate CPR and AED use within 3–5 minutes gives the best chance of survival.\n\nHeat illness: Exertional heat stroke is a medical emergency that requires immediate cooling. Without on-site cold water immersion capability, the window for treatment can pass before an ambulance arrives.\n\nLacerations and bleeding: Contact sports, ice sports, and combat sports generate cuts that need immediate wound care. Proper first aid can keep an athlete in competition; delayed care cannot.\n\nOverexertion: Endurance events see dehydration, hyponatremia, collapse, and exhaustion. Finish line and course medical teams are essential.",
+      },
+      {
+        heading: 'What Medical Coverage Looks Like at Different Events',
+        body: "Youth tournaments: 1–2 EMTs with a first aid station. Coverage should include pediatric assessment capability and parent/guardian communication protocols.\n\nAdult recreational leagues: 1–2 EMTs depending on number of simultaneous games. AED availability is essential.\n\nHigh school and college events: Certified athletic trainers plus EMT/paramedic standby. Concussion assessment protocols and emergency action plans are standard.\n\nProfessional and semi-professional: Full medical team with ALS capability, team physician coordination, and compliance with league and commission requirements.\n\nMarathons and endurance events: Course medical stations every 1–2 miles, roving medic teams, finish line medical tent with cold water immersion, and ALS transport capability.\n\nCombat sports: Ringside physician plus EMT/paramedic team. State athletic commission requirements dictate minimum staffing, equipment, and medications.",
+      },
+      {
+        heading: 'Creating a Sports Event Medical Plan',
+        body: "Every sports event should have a written medical action plan that covers:\n\nStaffing — number and certification level of medical personnel, positioned at specific locations.\n\nEquipment — AEDs, splinting supplies, cervical stabilization, cold water immersion tubs (for endurance and outdoor events), and any sport-specific equipment.\n\nEmergency protocols — cardiac arrest response, spinal injury management, concussion evaluation procedures, and heat illness treatment.\n\nHospital routing — pre-identified receiving hospitals, transport routes, and communication with local EMS.\n\nCommunication — how coaches, referees, and event staff alert the medical team, and how the medical team communicates with each other across multiple fields or venues.\n\nDocumentation — incident reporting, return-to-play decisions, and records for event insurance and governing body requirements.",
+      },
+      {
+        heading: 'Get Sports Medical Coverage',
+        body: "CityLine Medical provides sports medical standby for tournaments, leagues, games, marathons, and athletic events of any scale. Our medics understand sports injuries and competition pace — they know when to step in and when to stand back.\n\nContact us for a free event assessment and staffing recommendation.",
+      },
+    ],
+  },
+  {
+    slug: 'construction-sites-on-site-medical',
+    title: 'Do Construction Sites Need On-Site Medical Staff?',
+    categories: ['Construction'],
+    excerpt:
+      'OSHA requires medical availability on construction sites — but what does that actually mean? Here\'s when on-site medics are required vs. recommended, and why the ROI makes it a no-brainer.',
+    metaDescription:
+      'Do construction sites need on-site medical staff? OSHA requirements, ROI analysis, and how on-site medics reduce recordables, EMR, and insurance costs.',
+    publishDate: '2026-03-01',
+    readTime: 7,
+    tier: 2,
+    industryLinks: ['construction'],
+    relatedSlugs: ['osha-recordable-vs-first-aid', 'experience-modification-rate-emr'],
+    content: [
+      {
+        heading: 'What OSHA Actually Requires',
+        body: "OSHA 1926.50(c) states: \"In the absence of an infirmary, clinic, hospital, or physician that is reasonably accessible in terms of time and distance to the worksite, a person who has a valid certificate in first-aid training shall be available at the worksite to render first aid.\"\n\nThis is the minimum standard. It means that if a hospital isn't close enough to respond quickly to a serious injury, you need someone on-site who can provide first aid. For many urban construction sites, the argument is that hospitals are \"reasonably accessible\" — but in practice, EMS response times of 10–20 minutes mean injured workers are waiting without medical care for critical minutes.\n\nFor projects governed by the Army Corps of Engineers EM385 1-1 standard, on-site medical capability is more explicitly required. Many project owners and general contractors go beyond OSHA minimums in their safety requirements for subcontractors.",
+      },
+      {
+        heading: 'When On-Site Medics Are Effectively Required',
+        body: "Beyond OSHA minimums, on-site medical staff are required or strongly expected in these situations:\n\nProject owner requirements: Most major project owners — especially in commercial, institutional, and infrastructure — require on-site medical as part of the project safety plan. This is standard on large-scale NYC projects.\n\nOCIP/CCIP programs: Owner and Contractor Controlled Insurance Programs almost always mandate on-site medical as part of the wrap-up program's safety requirements.\n\nGeneral contractor requirements: GCs bidding on large projects typically require subcontractors to have or share access to on-site medical services.\n\nHigh-hazard operations: Confined space entry, steel erection, demolition, tunneling, and work at height all create scenarios where immediate medical response can be the difference between life and death.\n\nRemote sites: Any site more than 15 minutes from a hospital effectively requires on-site medical to meet the \"reasonably accessible\" standard.",
+      },
+      {
+        heading: 'The ROI of On-Site Medical',
+        body: "Even when not strictly required, on-site medical pays for itself through:\n\nReduced OSHA recordables: On-site medics treat injuries at the first-aid level whenever clinically appropriate, keeping them off your OSHA 300 log. A single avoided recordable can save $30,000–$100,000+ in downstream costs.\n\nLower EMR: Fewer workers' comp claims mean a lower Experience Modification Rate, which directly reduces your insurance premiums for up to 4 years. For a contractor with $500K in base premium, a 0.2-point EMR improvement saves $100K annually.\n\nReduced lost workdays: Workers treated on-site return to work the same day in the vast majority of cases. Without on-site medical, even a minor injury that goes to the ER results in a lost day.\n\nBidding eligibility: A strong safety record — supported by on-site medical — keeps your TRIR and EMR below the thresholds that project owners require for bid qualification.\n\nThe cost of a dedicated on-site medic is a fraction of the cost of a single unnecessary ER visit, recordable incident, or workers' comp claim.",
+      },
+      {
+        heading: 'What On-Site Medical Looks Like on a Construction Site',
+        body: "A typical on-site medical program includes a dedicated EMT or paramedic stationed at the project for every shift. They operate from a first aid station stocked with treatment supplies, maintain the project's AED program, document every medical contact in a HIPAA-compliant system, track injuries and near-misses for trend analysis, coordinate with the site safety manager on hazard identification, and administer drug and alcohol screenings as needed.\n\nThe medic becomes part of your project team — they know the site, know the hazards, know the workers, and are positioned to respond in seconds when something happens.",
+      },
+      {
+        heading: 'Get a Free Site Evaluation',
+        body: "CityLine Medical deploys on-site medics to construction projects of every size — from single-building residential to multi-billion-dollar infrastructure programs. We're a certified Minority Business Enterprise (MBE) and our teams understand OSHA 1926, NYC DOB requirements, and the pace of construction operations.\n\nRequest a free site evaluation to see how on-site medical support can protect your project, your workers, and your bottom line.",
+      },
+    ],
+  },
+  {
+    slug: 'top-medical-risks-large-events',
+    title: 'Top Medical Risks at Large Events and How to Prepare',
+    categories: ['Events & Festivals'],
+    excerpt:
+      'Large events bring large medical risks — from cardiac arrests to crowd crushes. Here are the top medical threats event organizers should plan for and how to mitigate them.',
+    metaDescription:
+      'Top medical risks at large events: cardiac emergencies, heat illness, crowd crush, overdose, and more. How event organizers should prepare with medical coverage.',
+    publishDate: '2026-03-01',
+    readTime: 7,
+    tier: 2,
+    industryLinks: ['events'],
+    relatedSlugs: ['mass-gathering-medicine', 'how-many-emts-for-event'],
+    content: [
+      {
+        heading: 'Medical Risks Scale With Attendance',
+        body: "The larger the event, the more certain it becomes that medical emergencies will occur. This isn't pessimism — it's statistics. At any gathering over 1,000 people, the probability of a cardiac event, severe allergic reaction, or traumatic injury approaches near-certainty over the course of the event.\n\nSmart event organizers don't hope nothing happens — they plan for the emergencies that are statistically inevitable. Here are the top medical risks at large events and what your medical team should be prepared to handle.",
+      },
+      {
+        heading: 'Cardiac Arrest',
+        body: "Sudden cardiac arrest can happen to anyone, at any age, at any time. At large events, the odds of at least one cardiac event increase proportionally with attendance. The survival rate for out-of-hospital cardiac arrest is approximately 10% nationally — but with immediate CPR and AED use within 3–5 minutes, survival rates can exceed 70%.\n\nPreparation: Multiple AED placements throughout the venue, medical staff trained in ACLS positioned for rapid response, and pre-identified hospital routes for cardiac patients. Every minute without defibrillation reduces survival by 7–10%.",
+      },
+      {
+        heading: 'Heat Illness and Exertional Heat Stroke',
+        body: "Outdoor events in warm weather are heat illness factories. When you combine sun exposure, physical activity (dancing, standing for hours), alcohol consumption, and crowd density, heat-related medical contacts can account for 30–50% of all medical encounters at outdoor summer events.\n\nExertional heat stroke is a life-threatening emergency that requires immediate cooling — ideally cold water immersion — within 30 minutes of onset. Without on-site capability, the treatment window passes before the ambulance arrives.\n\nPreparation: Hydration stations, cooling areas, medical teams monitoring for heat illness signs, cold water immersion tubs (for high-risk events), and weather monitoring protocols with defined heat index thresholds for event modification.",
+      },
+      {
+        heading: 'Substance-Related Emergencies',
+        body: "Events where alcohol is served or where recreational drug use is prevalent generate overdose, intoxication, and drug interaction emergencies. Opioid overdose requires immediate naloxone (Narcan) administration. Stimulant overdose can cause cardiac emergencies and hyperthermia. Alcohol poisoning requires monitoring and possible airway management.\n\nPreparation: Medical staff carrying naloxone, experience recognizing overdose presentations, discreet treatment areas, and protocols for intoxicated attendee management including safe transport coordination.",
+      },
+      {
+        heading: 'Crowd Crush and Trampling',
+        body: "Crowd crush events — where crowd density exceeds 6–7 people per square meter — cause compressive asphyxia, trampling injuries, and panic-related trauma. These events can produce mass casualties in minutes.\n\nPreparation: Medical teams positioned at choke points and high-density areas, communication systems that allow rapid deployment of additional resources, triage protocols for mass casualty events, and coordination with venue security on crowd management.",
+      },
+      {
+        heading: 'Allergic Reactions and Anaphylaxis',
+        body: "Food service at events means allergic reactions are inevitable. Severe anaphylaxis requires immediate epinephrine administration and can progress to cardiac arrest within minutes without treatment.\n\nPreparation: Medical staff carrying epinephrine auto-injectors, experience recognizing anaphylaxis, and ALS capability for severe reactions that don't respond to initial treatment.",
+      },
+      {
+        heading: 'Plan for What\'s Coming',
+        body: "The events that go smoothly aren't the ones where nothing happened — they're the ones where the medical team was ready for everything that did happen. CityLine Medical provides scalable event medical operations for events of any size, with experience handling every emergency on this list.\n\nContact us for a free event risk assessment and medical staffing plan.",
+      },
+    ],
+  },
+  {
+    slug: 'first-aid-vs-emt-vs-paramedic',
+    title: 'First Aid vs. EMT vs. Paramedic: What\'s the Difference?',
+    categories: ['Events & Festivals', 'Construction', 'Sports & Athletic Events'],
+    excerpt:
+      'Not all medical coverage is the same. Understanding the difference between first aid, EMT, and paramedic-level care helps you choose the right coverage for your event or site.',
+    metaDescription:
+      'First aid vs EMT vs paramedic: scope of practice, training levels, and when you need each type of medical coverage for events, construction, and sports.',
+    publishDate: '2026-03-02',
+    readTime: 5,
+    tier: 3,
+    industryLinks: ['events', 'construction', 'sports'],
+    relatedSlugs: ['what-is-medical-standby', 'how-many-emts-for-event'],
+    content: [
+      {
+        heading: 'Three Levels of Medical Response',
+        body: "When you're hiring medical coverage for an event, construction site, or sports venue, you'll hear three terms: first aid, EMT, and paramedic. These aren't interchangeable — they represent fundamentally different levels of training, scope of practice, and capability. Choosing the wrong level means you're either overpaying for capability you don't need or — more dangerously — underprepared for the emergencies you're most likely to face.",
+      },
+      {
+        heading: 'First Aid',
+        body: "First aid is the most basic level of medical response. A first-aid-certified person has completed a short training course (typically 4–8 hours) and can provide:\n\nWound cleaning and bandaging\nCPR and AED use\nBasic splinting\nBurn treatment\nChoking response\n\nFirst aid certification is appropriate for low-risk office environments where the primary role is to stabilize someone until professional medical help arrives. It is not a substitute for professional medical coverage at events, construction sites, or sports venues.\n\nWhen it's appropriate: Office buildings, small indoor gatherings with low risk, supplemental training for non-medical staff.",
+      },
+      {
+        heading: 'EMT (Emergency Medical Technician)',
+        body: "EMTs complete 120–150 hours of training and hold a state certification. They provide BLS (Basic Life Support) care including:\n\nPatient assessment and vital signs\nOxygen administration\nBag-valve-mask ventilation\nWound management including hemorrhage control\nSpinal immobilization\nSplinting for fractures and dislocations\nCPR and AED with professional protocols\nAssisting patients with their own prescribed medications\nBasic pharmacology (activated charcoal, oral glucose, aspirin)\n\nEMTs are the standard level of medical coverage for most events, construction sites, and sports venues. They handle the vast majority of on-site medical emergencies and can stabilize patients for transport when higher-level care is needed.\n\nWhen it's appropriate: Most events, construction sites, sports venues, film sets, and general medical standby.",
+      },
+      {
+        heading: 'Paramedic',
+        body: "Paramedics complete 1,200–1,800 hours of training and hold advanced certification. They provide ALS (Advanced Life Support) care including everything an EMT does, plus:\n\nIV access and fluid administration\nCardiac monitoring and 12-lead ECG interpretation\nAdvanced airway management (intubation, surgical airways)\nMedication administration (epinephrine, amiodarone, naloxone, and 30+ other medications)\nCardioversion and external pacing\nChest decompression for tension pneumothorax\nAdvanced pharmacological intervention\n\nParamedics provide hospital-level emergency care in the field. When seconds matter and hospital transport takes minutes, paramedic-level intervention can be life-saving.\n\nWhen it's appropriate: High-risk events, large gatherings (5,000+), athletic competitions, combat sports, events with elderly populations, and any scenario where cardiac emergencies, severe allergic reactions, or major trauma are foreseeable.",
+      },
+      {
+        heading: 'Which Level Do You Need?',
+        body: "For most events and work sites, EMT-level (BLS) coverage is the right choice. It provides professional medical assessment and treatment capability at a reasonable cost. Add paramedic-level (ALS) coverage when the risk profile demands it — large events, high-risk activities, remote locations, or populations with elevated cardiac risk.\n\nCityLine Medical staffs both EMTs and paramedics and will recommend the right coverage level based on your specific situation. Contact us for a free assessment.",
+      },
+    ],
+  },
+  {
+    slug: 'event-medical-planning-early',
+    title: 'Why Event Organizers Should Plan Medical Coverage Early',
+    categories: ['Events & Festivals'],
+    excerpt:
+      'Waiting until the last minute to arrange event medical coverage costs more, limits your options, and puts your event at risk. Here\'s why early planning pays off.',
+    metaDescription:
+      'Why event organizers should plan medical coverage early: better staffing, lower costs, permit compliance, and reduced liability. Start planning 4-8 weeks out.',
+    publishDate: '2026-03-03',
+    readTime: 5,
+    tier: 3,
+    industryLinks: ['events'],
+    relatedSlugs: ['event-medical-plan-nyc', 'how-many-emts-for-event'],
+    content: [
+      {
+        heading: 'Medical Coverage Is Not a Last-Minute Item',
+        body: "Event organizers juggle dozens of vendors and logistics — and medical coverage often ends up at the bottom of the priority list. It shouldn't be. Medical planning affects your permits, your insurance, your venue contract, and your liability exposure. Treating it as an afterthought creates problems that are expensive and sometimes impossible to fix at the last minute.",
+      },
+      {
+        heading: 'Permits Require Medical Plans in Advance',
+        body: "In New York City and most major cities, event permits require a medical action plan as part of the application. This isn't a checkbox — permitting agencies want to see specific staffing numbers, equipment lists, hospital routing plans, and communication protocols. If your medical plan is incomplete or missing, your permit application gets sent back.\n\nStarting early means your medical provider can prepare the documentation your permit requires, attend planning meetings with venue management and city agencies, and adjust the plan based on feedback — all before the deadline.",
+      },
+      {
+        heading: 'Better Staffing Options',
+        body: "Medical providers staff events with their best available personnel. When you book 4–8 weeks in advance, you get experienced medics who have worked events like yours before. When you call the week of the event, you get whoever is available — and during peak event season (May through October in NYC), that pool shrinks fast.\n\nEarly planning also ensures you get the right number of staff. Last-minute bookings often result in either overstaffing (because the provider can't do a proper assessment) or understaffing (because the right personnel aren't available).",
+      },
+      {
+        heading: 'Insurance and Venue Compliance',
+        body: "Your event insurance policy and your venue contract both have medical coverage requirements. These requirements are specific — they may mandate certain certification levels, specific equipment, or minimum staffing ratios. Discovering these requirements at the last minute can leave you scrambling.\n\nPlanning early gives your medical provider time to review your insurance and venue requirements and build a plan that satisfies both — without expensive last-minute upgrades.",
+      },
+      {
+        heading: 'Start Planning Now',
+        body: "The ideal timeline for event medical planning is 4–8 weeks before your event date. For large events (5,000+ attendees), start 8–12 weeks out. For events requiring special permits or multi-agency coordination, start even earlier.\n\nCityLine Medical provides free event assessments and works with your team from the planning stage through post-event reporting. Contact us to start planning your event medical coverage today.",
+      },
+    ],
+  },
+  {
+    slug: 'medical-planning-film-tv-productions',
+    title: 'Medical Planning for Film & TV Productions',
+    categories: ['Media & Film'],
+    excerpt:
+      'Productions move fast and budgets are tight — but skipping medical planning costs more than the medic. Here\'s how to plan medical coverage for your next production.',
+    metaDescription:
+      'Medical planning guide for film and TV productions: SAG-AFTRA requirements, set medic responsibilities, NYC permit compliance, and how to budget for production medical.',
+    publishDate: '2026-03-03',
+    readTime: 6,
+    tier: 2,
+    industryLinks: ['media'],
+    relatedSlugs: ['set-medic-nyc-film-productions', 'branded-content-medical-coverage'],
+    content: [
+      {
+        heading: 'Medical Coverage Is a Production Requirement',
+        body: "Medical coverage on a film or TV production isn't optional — it's mandated by union agreements, required by production insurance carriers, and often a condition of your filming permit. SAG-AFTRA's safety guidelines require a qualified first aid provider on set when certain conditions are met. IATSE agreements include provisions for set safety including medical personnel. And in NYC, the Mayor's Office of Media and Entertainment requires medical coverage for certain production types as part of the film permit process.\n\nBeyond requirements, the business case is simple: a medical incident that sends someone to the ER can shut down your set for hours. The cost of that downtime — crew overtime, equipment holds, location fees, schedule delays — dwarfs the cost of having a medic on set.",
+      },
+      {
+        heading: 'What a Set Medic Does',
+        body: "A set medic is a licensed EMT or paramedic who is embedded in your production crew. They arrive before call, position themselves near the action (but out of frame), and remain available throughout the shooting day. Their responsibilities include:\n\nImmediate response to any injury or medical event on set\nFirst aid treatment that keeps minor injuries from becoming ER visits\nMonitoring weather conditions for heat illness or cold exposure risk\nMedical standby during stunts, special effects, and high-risk setups\nMaintaining AED and first aid equipment on set\nDocumenting every medical contact for production insurance records\nCoordinating with local EMS if hospital transport is needed\n\nGood set medics understand the rhythm of production. They know the difference between a setup and a take. They don't interrupt shots for non-emergencies. They're invisible until they're needed.",
+      },
+      {
+        heading: 'Planning Medical Coverage for Your Production',
+        body: "Start by identifying your production's risk profile:\n\nStunts and special effects: Any production involving stunt work, fire effects, pyrotechnics, or vehicle action needs ALS (paramedic) coverage with additional equipment.\n\nWater work: Productions involving water — pools, ocean, rivers — need medics with water rescue certification in addition to standard medical capability.\n\nNight shoots: Extended night shoots create fatigue-related risk for both cast and crew. Medical teams should be briefed on the schedule and positioned for overnight coverage.\n\nMultiple units: If you're running a main unit and a second unit simultaneously, each unit needs its own medical coverage.\n\nRemote locations: Productions filming outside urban areas need enhanced medical capability to account for longer transport times to hospitals.",
+      },
+      {
+        heading: 'Budgeting for Production Medical',
+        body: "Set medics are typically budgeted as a below-the-line crew expense. Rates vary by market, certification level (EMT vs. paramedic), and production duration. For NYC productions, expect to budget for a 12-hour day rate per medic.\n\nThe budget question isn't whether you can afford a set medic — it's whether you can afford the alternative. One ER visit, one insurance claim, one hour of downtime costs more than a full day of medical coverage. Productions that skip the medic to save a few hundred dollars risk losing thousands in downtime and claims.",
+      },
+      {
+        heading: 'Get Production Medical Coverage',
+        body: "CityLine Medical provides set medics for film, television, commercial, and branded content productions in New York and the Northeast. Our medics are experienced on set, understand production pace, and deploy on short notice — including same-day booking when schedules change.\n\nContact us for rates and availability.",
+      },
+    ],
+  },
 ]
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {
@@ -565,8 +862,9 @@ export const blogCategories = [
   'All',
   'Construction',
   'Industrial',
+  'Events & Festivals',
+  'Sports & Athletic Events',
   'Media & Film',
-  'Hospitality',
-  'Events',
+  'Corporate & Private Venues',
   'Safety Consulting',
 ] as const

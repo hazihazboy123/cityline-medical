@@ -1,4 +1,4 @@
-import { ArrowRight, Shield, MapPin, HardHat, Factory, Film, UtensilsCrossed, Calendar, ShieldCheck } from 'lucide-react'
+import { ArrowRight, Shield, MapPin, HardHat, Factory, Film, Calendar, Trophy, Building2 } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'motion/react'
 import { useState } from 'react'
@@ -19,6 +19,20 @@ const industryButtons = [
     description: 'Occupational health clinics, respirator fit testing, wellness programs, and emergency response for manufacturing and plant operations.',
   },
   {
+    label: 'Events & Festivals',
+    slug: 'events',
+    icon: Calendar,
+    color: 'bg-rose-600',
+    description: 'Scalable medical teams for concerts, festivals, galas, and corporate events — invisible until seconds matter.',
+  },
+  {
+    label: 'Sports',
+    slug: 'sports',
+    icon: Trophy,
+    color: 'bg-emerald-600',
+    description: 'Sideline medical standby for games, tournaments, marathons, and athletic competitions of any scale.',
+  },
+  {
     label: 'Media & Film',
     slug: 'media',
     icon: Film,
@@ -26,25 +40,11 @@ const industryButtons = [
     description: 'Set medics and safety coordinators for film, television, and commercial productions. Fast-paced, flexible coverage.',
   },
   {
-    label: 'Hospitality',
-    slug: 'hospitality',
-    icon: UtensilsCrossed,
-    color: 'bg-emerald-600',
-    description: "Medical professionals who blend seamlessly into your venue — invisible until the moment they're needed.",
-  },
-  {
-    label: 'Events',
-    slug: 'events',
-    icon: Calendar,
-    color: 'bg-rose-600',
-    description: 'Scalable medical teams that stay out of sight and out of the way, until seconds matter.',
-  },
-  {
-    label: 'Safety',
-    slug: 'safety',
-    icon: ShieldCheck,
+    label: 'Corporate',
+    slug: 'corporate',
+    icon: Building2,
     color: 'bg-navy-600',
-    description: 'Site evaluations, emergency response planning, EHS program development, and regulatory compliance across all industries.',
+    description: 'Discreet medical staffing for corporate campuses, private venues, conventions, and high-profile gatherings.',
   },
 ]
 
@@ -131,7 +131,7 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.45 }}
               className="text-lg text-navy-400 max-w-lg mb-10 leading-relaxed"
             >
-              On-site medics for construction, film sets, and events nationwide.
+              On-site medics for construction, sports, events, and film sets nationwide.
               Fast response. Full OSHA compliance. Zero production delays.
             </motion.p>
 

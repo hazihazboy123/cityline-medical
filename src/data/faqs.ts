@@ -26,7 +26,7 @@ export const faqs: PageFAQ[] = [
       {
         question: 'What industries does CityLine Medical serve?',
         answer:
-          'We provide on-site medical services for construction, industrial and manufacturing, film and television production, hospitality, events, and safety consulting. Our teams are experienced in the unique hazards, compliance requirements, and operational pace of each industry — from OSHA-regulated construction sites to fast-moving film sets to large-scale public events.',
+          'We provide on-site medical services for construction, industrial and manufacturing, events and festivals, sports and athletic events, film and television production, and corporate and private venues. Our teams are experienced in the unique hazards, compliance requirements, and operational pace of each industry — from OSHA-regulated construction sites to fast-moving film sets to large-scale sporting events.',
       },
       {
         question: 'How quickly can you deploy medics to my site?',
@@ -150,35 +150,62 @@ export const faqs: PageFAQ[] = [
     ],
   },
   {
-    pageSlug: 'hospitality',
+    pageSlug: 'sports',
     items: [
       {
-        question: 'Will your medics be visible to our guests?',
+        question: 'What types of sports events do you cover?',
         answer:
-          "No — discretion is our core principle in hospitality. Our medical professionals dress appropriately for your venue, position themselves in staff-only or low-visibility areas, and handle medical events with complete professionalism and discretion. Your guests won't know we're there unless they need us.",
+          'We provide medical standby for youth and adult tournaments, professional and semi-professional games, marathons and endurance events, ice hockey, soccer, football, boxing, MMA, wrestling, basketball, and any athletic competition. We scale from a single medic at a local tournament to full medical operations for major sporting events.',
       },
       {
-        question:
-          'What kind of medical emergencies do you handle in hospitality settings?',
+        question: 'Do your medics perform sideline concussion assessments?',
         answer:
-          'We handle cardiac events, allergic reactions and anaphylaxis, slip-and-fall injuries, intoxication incidents, diabetic emergencies, seizures, heat-related illness, and a wide range of staff injuries including kitchen burns, lacerations, and repetitive strain injuries. Our medics carry AEDs, epinephrine, and the equipment needed for immediate stabilization.',
+          'Yes. Our sideline medics are trained in concussion recognition and perform standardized assessments when a head injury is suspected. They evaluate the athlete on the sideline and make return-to-play recommendations following current sports medicine protocols.',
       },
       {
-        question:
-          'Can you provide medical coverage for a single event at our venue?',
+        question: 'Do you meet state athletic commission requirements for combat sports?',
         answer:
-          'Yes. We provide coverage for single events — gallery openings, private dinners, galas, holiday parties, rooftop events — as well as ongoing venue staffing. Whether you need a medic for one evening or year-round coverage, we scale to your needs.',
+          'Yes. For boxing, MMA, and sanctioned combat sports events, we provide ringside medical teams that meet all state athletic commission requirements — including physician oversight, specific equipment, and mandated medications.',
       },
       {
-        question: 'Do you help with liquor liability documentation?',
+        question: 'Can you provide cold water immersion for outdoor athletic events?',
         answer:
-          "Yes. When we manage intoxication-related incidents, we document everything — the individual's condition, the care provided, and the disposition (including transport coordination). This documentation can support your venue's defense in any liquor liability claims.",
+          'Yes. For outdoor endurance and athletic events with heat illness risk, we deploy cold water immersion tubs and implement heat illness prevention protocols following NATA and ACSM guidelines. This is standard equipment for our marathon and outdoor tournament coverage.',
       },
       {
-        question:
-          'Can you set up an AED program for our hotel or venue?',
+        question: 'How far in advance should we book medical coverage for a tournament?',
         answer:
-          'Yes. We supply, place, and maintain Automated External Defibrillators (AEDs) and train your staff on proper use. Many jurisdictions require AEDs in hotels and large public venues, and having a maintained AED program with trained responders is both a compliance and safety issue.',
+          'For multi-field tournaments and large athletic events, we recommend booking 4–6 weeks in advance to ensure proper staffing. For single games or small events, we can often accommodate shorter notice. Contact us for availability.',
+      },
+    ],
+  },
+  {
+    pageSlug: 'corporate',
+    items: [
+      {
+        question: 'Will your medics be visible to guests and employees?',
+        answer:
+          "No — discretion is our core principle. Our medical professionals dress appropriately for your venue or corporate environment, position themselves in staff-only or low-visibility areas, and handle medical events with complete professionalism. Your guests and employees won't know we're there unless they need us.",
+      },
+      {
+        question: 'What kind of medical emergencies do you handle at corporate venues?',
+        answer:
+          'We handle cardiac events, allergic reactions and anaphylaxis, slip-and-fall injuries, diabetic emergencies, seizures, and a wide range of workplace injuries. Our medics carry AEDs, epinephrine, and the equipment needed for immediate stabilization.',
+      },
+      {
+        question: 'Can you provide medical coverage for a single corporate event?',
+        answer:
+          'Yes. We provide coverage for single events — corporate galas, award ceremonies, conferences, holiday parties, and private gatherings — as well as ongoing venue or campus staffing. Whether you need a medic for one evening or year-round coverage, we scale to your needs.',
+      },
+      {
+        question: 'Can you set up an AED program for our facility?',
+        answer:
+          'Yes. We supply, place, and maintain Automated External Defibrillators (AEDs) and train your staff on proper use. Many jurisdictions require AEDs in large commercial and public venues, and having a maintained AED program with trained responders is both a compliance and safety issue.',
+      },
+      {
+        question: 'Do you provide wellness programs for corporate employees?',
+        answer:
+          'Yes. We offer on-site health screenings, flu vaccinations, blood pressure monitoring, and wellness education programs. These services are administered by licensed medical professionals and can be scheduled around your workforce to minimize disruption.',
       },
     ],
   },

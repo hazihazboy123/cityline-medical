@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 const industryLinks = [
   { label: 'Construction', slug: 'construction' },
   { label: 'Industrial', slug: 'industrial' },
+  { label: 'Events & Festivals', slug: 'events' },
+  { label: 'Sports & Athletic Events', slug: 'sports' },
   { label: 'Media & Film', slug: 'media' },
-  { label: 'Hospitality', slug: 'hospitality' },
-  { label: 'Events', slug: 'events' },
-  { label: 'Safety Consulting', slug: 'safety' },
+  { label: 'Corporate & Private Venues', slug: 'corporate' },
 ]
 
 const serviceLinks = [
@@ -19,8 +19,8 @@ const serviceLinks = [
 ]
 
 const companyLinks = [
-  { label: 'About Us', href: '/#about' },
-  { label: 'Safety', href: '/#safety' },
+  { label: 'About Us', href: '/about', isRoute: true },
+  { label: 'Safety', href: '/safety', isRoute: true },
   { label: 'Blog', href: '/blog', isRoute: true },
   { label: 'Contact', href: '/#contact' },
   { label: 'Join Our Team', href: '/#contact' },
@@ -34,9 +34,9 @@ export default function Footer() {
         <div className="grid lg:grid-cols-5 gap-12 mb-14">
           {/* Brand column */}
           <div className="lg:col-span-2">
-            <img src="/logo-light.png" alt="CityLine Medical" className="h-14 w-auto mb-5" />
+            <img src="/logo-primary.png" alt="CityLine Medical" className="h-20 w-auto mb-5" />
             <p className="text-sm text-navy-400 leading-relaxed mb-6 max-w-sm">
-              On-site medical solutions for construction, film, events, and
+              On-site medical solutions for construction, sports, events, film, and
               industry nationwide. Headquartered in New York.
             </p>
             <div className="space-y-3">

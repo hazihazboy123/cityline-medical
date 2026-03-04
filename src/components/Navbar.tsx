@@ -6,16 +6,17 @@ const navLinks = [
   { label: 'Blog', hash: '/blog', isRoute: true },
   { label: 'Services', hash: '#services' },
   { label: 'Safety', hash: '/safety', isRoute: true },
+  { label: 'About', hash: '/about', isRoute: true },
   { label: 'Contact', hash: '#contact' },
 ]
 
 const industryLinks = [
   { label: 'Construction', slug: 'construction' },
   { label: 'Industrial', slug: 'industrial' },
+  { label: 'Events & Festivals', slug: 'events' },
+  { label: 'Sports & Athletic Events', slug: 'sports' },
   { label: 'Media & Film', slug: 'media' },
-  { label: 'Hospitality', slug: 'hospitality' },
-  { label: 'Events', slug: 'events' },
-  { label: 'Safety Consulting', slug: 'safety' },
+  { label: 'Corporate & Private Venues', slug: 'corporate' },
 ]
 
 export default function Navbar() {
@@ -27,15 +28,13 @@ export default function Navbar() {
   const hashHref = (hash: string) => (isHome ? hash : `/${hash}`)
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-navy-900/95 backdrop-blur-md border-b border-white/5 overflow-visible">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 overflow-visible">
       <div className="max-w-7xl mx-auto px-0 sm:px-0 lg:px-0">
-        <div className="relative flex items-center justify-between h-24 px-4 sm:px-6 lg:px-8">
-          {/* Logo — pinned to far left corner, oversized + shifted down */}
-          <Link to="/" className="shrink-0 absolute left-0 top-5 z-10">
-            <img src="/logo-light.png" alt="CityLine Medical" className="h-36 w-auto" />
+        <div className="relative flex items-center justify-between h-20 px-4 sm:px-6 lg:px-8">
+          {/* Logo — horizontal version */}
+          <Link to="/" className="shrink-0 z-10">
+            <img src="/logo-horizontal.png" alt="CityLine Medical" className="h-14 w-auto" />
           </Link>
-          {/* Spacer to reserve logo width so other items don't overlap */}
-          <div className="shrink-0 w-56" />
 
           {/* Desktop Nav — center */}
           <div className="hidden lg:flex items-center gap-1 absolute left-1/2 -translate-x-1/2">
@@ -45,19 +44,19 @@ export default function Navbar() {
               onMouseEnter={() => setIndustriesOpen(true)}
               onMouseLeave={() => setIndustriesOpen(false)}
             >
-              <button className="flex items-center gap-1 px-4 py-2 text-sm font-medium text-navy-200 hover:text-white transition-colors duration-200 rounded-lg hover:bg-white/5">
+              <button className="flex items-center gap-1 px-4 py-2 text-sm font-medium text-navy-700 hover:text-navy-900 transition-colors duration-200 rounded-lg hover:bg-slate-50">
                 Industries
                 <ChevronDown
                   className={`w-3.5 h-3.5 transition-transform duration-200 ${industriesOpen ? 'rotate-180' : ''}`}
                 />
               </button>
               {industriesOpen && (
-                <div className="absolute top-full left-0 mt-1 w-52 bg-navy-800 border border-white/10 rounded-xl shadow-2xl shadow-black/30 py-2">
+                <div className="absolute top-full left-0 mt-1 w-56 bg-white border border-slate-200 rounded-xl shadow-xl shadow-black/10 py-2">
                   {industryLinks.map((ind) => (
                     <Link
                       key={ind.slug}
                       to={`/${ind.slug}`}
-                      className="block px-4 py-2.5 text-sm text-navy-200 hover:text-white hover:bg-white/5 transition-colors"
+                      className="block px-4 py-2.5 text-sm text-slate-600 hover:text-navy-900 hover:bg-slate-50 transition-colors"
                       onClick={() => setIndustriesOpen(false)}
                     >
                       {ind.label}
@@ -72,7 +71,7 @@ export default function Navbar() {
                 <Link
                   key={link.label}
                   to={link.hash}
-                  className="px-4 py-2 text-sm font-medium text-navy-200 hover:text-white transition-colors duration-200 rounded-lg hover:bg-white/5"
+                  className="px-4 py-2 text-sm font-medium text-navy-700 hover:text-navy-900 transition-colors duration-200 rounded-lg hover:bg-slate-50"
                 >
                   {link.label}
                 </Link>
@@ -80,7 +79,7 @@ export default function Navbar() {
                 <a
                   key={link.label}
                   href={hashHref(link.hash)}
-                  className="px-4 py-2 text-sm font-medium text-navy-200 hover:text-white transition-colors duration-200 rounded-lg hover:bg-white/5"
+                  className="px-4 py-2 text-sm font-medium text-navy-700 hover:text-navy-900 transition-colors duration-200 rounded-lg hover:bg-slate-50"
                 >
                   {link.label}
                 </a>
@@ -92,7 +91,7 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center gap-4">
             <a
               href="tel:5164769665"
-              className="flex items-center gap-2 text-sm text-navy-300 hover:text-white transition-colors"
+              className="flex items-center gap-2 text-sm text-navy-600 hover:text-navy-900 transition-colors"
             >
               <Phone className="w-4 h-4" />
               <span className="font-medium">(516) 476-9665</span>
@@ -108,7 +107,7 @@ export default function Navbar() {
           {/* Mobile toggle */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="lg:hidden p-2 text-navy-300 hover:text-white transition-colors"
+            className="lg:hidden p-2 text-navy-600 hover:text-navy-900 transition-colors"
           >
             {mobileOpen ? (
               <X className="w-6 h-6" />
@@ -121,9 +120,9 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="lg:hidden bg-navy-900 border-t border-white/5">
+        <div className="lg:hidden bg-white border-t border-slate-200">
           <div className="px-4 py-4 space-y-1">
-            <p className="px-4 pt-2 pb-1 text-[11px] text-navy-500 uppercase tracking-widest font-semibold">
+            <p className="px-4 pt-2 pb-1 text-[11px] text-slate-400 uppercase tracking-widest font-semibold">
               Industries
             </p>
             {industryLinks.map((ind) => (
@@ -131,19 +130,19 @@ export default function Navbar() {
                 key={ind.slug}
                 to={`/${ind.slug}`}
                 onClick={() => setMobileOpen(false)}
-                className="block px-4 py-2.5 text-sm text-navy-200 hover:text-white hover:bg-white/5 rounded-lg transition-colors"
+                className="block px-4 py-2.5 text-sm text-slate-600 hover:text-navy-900 hover:bg-slate-50 rounded-lg transition-colors"
               >
                 {ind.label}
               </Link>
             ))}
-            <div className="my-2 border-t border-white/5" />
+            <div className="my-2 border-t border-slate-100" />
             {navLinks.map((link) =>
               'isRoute' in link && link.isRoute ? (
                 <Link
                   key={link.label}
                   to={link.hash}
                   onClick={() => setMobileOpen(false)}
-                  className="block px-4 py-3 text-navy-200 hover:text-white hover:bg-white/5 rounded-lg transition-colors font-medium"
+                  className="block px-4 py-3 text-slate-700 hover:text-navy-900 hover:bg-slate-50 rounded-lg transition-colors font-medium"
                 >
                   {link.label}
                 </Link>
@@ -152,13 +151,13 @@ export default function Navbar() {
                   key={link.label}
                   href={hashHref(link.hash)}
                   onClick={() => setMobileOpen(false)}
-                  className="block px-4 py-3 text-navy-200 hover:text-white hover:bg-white/5 rounded-lg transition-colors font-medium"
+                  className="block px-4 py-3 text-slate-700 hover:text-navy-900 hover:bg-slate-50 rounded-lg transition-colors font-medium"
                 >
                   {link.label}
                 </a>
               )
             )}
-            <div className="pt-4 border-t border-white/10">
+            <div className="pt-4 border-t border-slate-200">
               <a
                 href={hashHref('#contact')}
                 onClick={() => setMobileOpen(false)}

@@ -199,7 +199,7 @@ export default function IndustryPage() {
           </h3>
           <div className="flex flex-wrap gap-3">
             {industries
-              .filter((ind) => ind.slug !== industry.slug)
+              .filter((ind) => ind.slug !== industry.slug && ind.slug !== 'safety')
               .map((ind) => (
                 <Link
                   key={ind.slug}
