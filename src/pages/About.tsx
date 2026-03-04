@@ -1,7 +1,6 @@
 import { motion } from 'motion/react'
 import { Link } from 'react-router-dom'
 import { ArrowLeft, ArrowRight, CheckCircle2 } from 'lucide-react'
-import CTA from '../components/CTA'
 
 const differentiators = [
   'Rapid on-site response to injuries and medical incidents',
