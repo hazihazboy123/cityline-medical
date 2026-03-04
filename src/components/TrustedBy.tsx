@@ -1,13 +1,13 @@
 import { motion } from 'motion/react'
 
-const logos: { name: string; src: string; invert?: boolean; className?: string }[] = [
+const logos: { name: string; src: string; invert?: boolean }[] = [
   { name: 'St. Regis Hotel', src: '/logos/stregis.svg' },
   { name: 'Turner Construction', src: '/logos/turner.png' },
   { name: 'American Red Cross', src: '/logos/redcross.png' },
   { name: 'Disney', src: '/logos/disney.svg' },
   { name: 'Monadnock Construction', src: '/logos/monadnock.svg' },
-  { name: 'Tishman Speyer', src: '/logos/tishman.png', className: 'h-14 sm:h-18' },
-  { name: 'Rockefeller Center', src: '/logos/rockefeller.png', className: 'h-14 sm:h-18' },
+  { name: 'Tishman Speyer', src: '/logos/tishman.png' },
+  { name: 'Rockefeller Center', src: '/logos/rockefeller.png' },
   { name: 'Wollman Ice Rink', src: '/logos/wollman.png' },
   { name: 'Roosevelt Hotel', src: '/logos/roosevelt.png', invert: true },
   { name: 'Lincoln Center', src: '/logos/lincoln.png' },
@@ -31,12 +31,12 @@ export default function TrustedBy() {
           {[...logos, ...logos].map((logo, i) => (
             <div
               key={`${logo.name}-${i}`}
-              className="flex-shrink-0 mx-10 sm:mx-14 flex items-center justify-center h-10"
+              className="flex-shrink-0 mx-8 sm:mx-12 flex items-center justify-center w-[100px] sm:w-[130px] h-8 sm:h-10"
             >
               <img
                 src={logo.src}
                 alt={`${logo.name} logo`}
-                className={`${logo.className ?? 'h-8 sm:h-10'} w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300${logo.invert ? ' brightness-0' : ''}`}
+                className={`max-h-full max-w-full object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300${logo.invert ? ' brightness-0' : ''}`}
               />
             </div>
           ))}
