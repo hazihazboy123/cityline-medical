@@ -1,13 +1,13 @@
 import { useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Menu, X, Phone, ChevronDown } from 'lucide-react'
 
 const navLinks = [
-  { label: 'Blog', hash: '/blog', isRoute: true },
-  { label: 'Services', hash: '#services' },
-  { label: 'Safety', hash: '/safety', isRoute: true },
-  { label: 'About', hash: '/about', isRoute: true },
-  { label: 'Contact', hash: '#contact' },
+  { label: 'Blog', href: '/blog', isRoute: true },
+  { label: 'Services', href: '/#services' },
+  { label: 'Safety', href: '/safety', isRoute: true },
+  { label: 'About', href: '/about', isRoute: true },
+  { label: 'Contact', href: '/#contact' },
 ]
 
 const industryLinks = [
@@ -22,18 +22,14 @@ const industryLinks = [
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [industriesOpen, setIndustriesOpen] = useState(false)
-  const location = useLocation()
-  const isHome = location.pathname === '/'
-
-  const hashHref = (hash: string) => (isHome ? hash : `/${hash}`)
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 overflow-visible">
       <div className="max-w-7xl mx-auto px-0 sm:px-0 lg:px-0">
         <div className="relative flex items-center justify-between h-20 px-4 sm:px-6 lg:px-8">
-          {/* Logo — horizontal version */}
+          {/* Logo — web banner version */}
           <Link to="/" className="shrink-0 z-10">
-            <img src="/logo-horizontal.png" alt="CityLine Medical" className="h-14 w-auto" />
+            <img src="/logo-banner.png" alt="CityLine Medical" className="h-16 w-auto" />
           </Link>
 
           {/* Desktop Nav — center */}
@@ -51,26 +47,30 @@ export default function Navbar() {
                 />
               </button>
               {industriesOpen && (
-                <div className="absolute top-full left-0 mt-1 w-56 bg-white border border-slate-200 rounded-xl shadow-xl shadow-black/10 py-2">
-                  {industryLinks.map((ind) => (
-                    <Link
-                      key={ind.slug}
-                      to={`/${ind.slug}`}
-                      className="block px-4 py-2.5 text-sm text-slate-600 hover:text-navy-900 hover:bg-slate-50 transition-colors"
-                      onClick={() => setIndustriesOpen(false)}
-                    >
-                      {ind.label}
-                    </Link>
-                  ))}
+                <div className="absolute top-full left-0 pt-0 w-56">
+                  {/* Invisible bridge to prevent gap */}
+                  <div className="h-1" />
+                  <div className="bg-white border border-slate-200 rounded-xl shadow-xl shadow-black/10 py-2">
+                    {industryLinks.map((ind) => (
+                      <Link
+                        key={ind.slug}
+                        to={`/${ind.slug}`}
+                        className="block px-4 py-2.5 text-sm text-slate-600 hover:text-navy-900 hover:bg-slate-50 transition-colors"
+                        onClick={() => setIndustriesOpen(false)}
+                      >
+                        {ind.label}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>
 
             {navLinks.map((link) =>
-              'isRoute' in link && link.isRoute ? (
+              link.isRoute ? (
                 <Link
                   key={link.label}
-                  to={link.hash}
+                  to={link.href}
                   className="px-4 py-2 text-sm font-medium text-navy-700 hover:text-navy-900 transition-colors duration-200 rounded-lg hover:bg-slate-50"
                 >
                   {link.label}
@@ -78,7 +78,7 @@ export default function Navbar() {
               ) : (
                 <a
                   key={link.label}
-                  href={hashHref(link.hash)}
+                  href={link.href}
                   className="px-4 py-2 text-sm font-medium text-navy-700 hover:text-navy-900 transition-colors duration-200 rounded-lg hover:bg-slate-50"
                 >
                   {link.label}
@@ -97,7 +97,7 @@ export default function Navbar() {
               <span className="font-medium">(516) 476-9665</span>
             </a>
             <a
-              href={hashHref('#contact')}
+              href="/#contact"
               className="bg-red-600 hover:bg-red-500 text-white px-5 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 hover:shadow-lg hover:shadow-red-600/25"
             >
               Get a Quote
@@ -137,10 +137,10 @@ export default function Navbar() {
             ))}
             <div className="my-2 border-t border-slate-100" />
             {navLinks.map((link) =>
-              'isRoute' in link && link.isRoute ? (
+              link.isRoute ? (
                 <Link
                   key={link.label}
-                  to={link.hash}
+                  to={link.href}
                   onClick={() => setMobileOpen(false)}
                   className="block px-4 py-3 text-slate-700 hover:text-navy-900 hover:bg-slate-50 rounded-lg transition-colors font-medium"
                 >
@@ -149,7 +149,7 @@ export default function Navbar() {
               ) : (
                 <a
                   key={link.label}
-                  href={hashHref(link.hash)}
+                  href={link.href}
                   onClick={() => setMobileOpen(false)}
                   className="block px-4 py-3 text-slate-700 hover:text-navy-900 hover:bg-slate-50 rounded-lg transition-colors font-medium"
                 >
@@ -159,7 +159,7 @@ export default function Navbar() {
             )}
             <div className="pt-4 border-t border-slate-200">
               <a
-                href={hashHref('#contact')}
+                href="/#contact"
                 onClick={() => setMobileOpen(false)}
                 className="block w-full text-center bg-red-600 text-white px-5 py-3 rounded-lg font-semibold"
               >

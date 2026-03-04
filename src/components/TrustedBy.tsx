@@ -1,16 +1,17 @@
 import { motion } from 'motion/react'
 
-const logos = [
+const logos: { name: string; src: string; invert?: boolean }[] = [
   { name: 'St. Regis Hotel', src: '/logos/stregis.svg' },
-  { name: 'Turner Construction', src: '/logos/turner.svg' },
+  { name: 'Turner Construction', src: '/logos/turner.png' },
   { name: 'American Red Cross', src: '/logos/redcross.png' },
   { name: 'Disney', src: '/logos/disney.svg' },
   { name: 'Monadnock Construction', src: '/logos/monadnock.svg' },
-  { name: 'Tishman Speyer', src: '/logos/tishman.svg' },
-  { name: 'Rockefeller Center', src: '/logos/rockefeller.svg' },
-  { name: 'Wollman Ice Rink', src: '/logos/wollman.svg' },
-  { name: 'Roosevelt Hotel', src: '/logos/roosevelt.svg' },
-  { name: 'Lincoln Center', src: '/logos/lincoln.svg' },
+  { name: 'Tishman Speyer', src: '/logos/tishman.png' },
+  { name: 'Rockefeller Center', src: '/logos/rockefeller.png' },
+  { name: 'Wollman Ice Rink', src: '/logos/wollman.png' },
+  { name: 'Roosevelt Hotel', src: '/logos/roosevelt.png', invert: true },
+  { name: 'Lincoln Center', src: '/logos/lincoln.png' },
+  { name: 'Brookfield Properties', src: '/logos/brookfield.png' },
 ]
 
 export default function TrustedBy() {
@@ -35,7 +36,7 @@ export default function TrustedBy() {
               <img
                 src={logo.src}
                 alt={`${logo.name} logo`}
-                className="h-8 sm:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+                className={`h-8 sm:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300${logo.invert ? ' brightness-0' : ''}`}
               />
             </div>
           ))}
